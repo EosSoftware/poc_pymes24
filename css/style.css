@@ -535,12 +535,12 @@ figure {
   width: 100%;
   float: left;
   margin-top: -7em;
-  background: rgba(255, 255, 255, 0.95);
-  -webkit-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
-  -moz-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
-  -ms-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
-  -o-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
-  box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
+  background: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 1);
+  -ms-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 1);
+  -o-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 1);
+  box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 1);
 }
 .tabulation label {
   color: rgba(0, 0, 0, 0.5);
@@ -714,7 +714,7 @@ div.cs-select span {
 }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+  background: rgba(0, 0, 0, 0);
 }
 
 .heading-section {
@@ -1217,7 +1217,7 @@ div.cs-select span {
 
 #fh5co-testimonial {
   position: relative;
-  background: #00AD7C;
+  background: #5584F9;
 }
 #fh5co-testimonial .fh5co-heading h2 {
   color: white;
@@ -1266,7 +1266,7 @@ div.cs-select span {
   width: 56px;
   height: 56px;
   margin-top: -30px;
-  background: #00AD7C;
+  background: #f68535;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
