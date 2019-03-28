@@ -102,18 +102,18 @@ var Dashboard = function() {
         }
 
         var chartData = {
-            labels: ["Label 1", "Label 2", "Label 3", "Label 4", "Label 5", "Label 6", "Label 7", "Label 8", "Label 9", "Label 10", "Label 11", "Label 12", "Label 13", "Label 14", "Label 15", "Label 16"],
+            labels: ["Label 1", "Label 2", "Label 3", "Label 4", "Label 5", "Label 6", "Label 7"],
             datasets: [{
                 //label: 'Dataset 1',
                 backgroundColor: mApp.getColor('success'),
                 data: [
-                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
+                    15, 20, 50, 60, 25, 40, 15
                 ]
             }, {
                 //label: 'Dataset 2',
-                backgroundColor: '#f3f3fb',
+                backgroundColor: '#aaaaaf',
                 data: [
-                    15, 20, 25, 30, 25, 20, 15, 20, 25, 30, 25, 20, 15, 10, 15, 20
+                    15, 20, 0, 0, 25, 0, 15
                 ]
             }]
         };
@@ -243,7 +243,7 @@ var Dashboard = function() {
 
         // For the sake of the example we update the chart every time it's created with a delay of 8 seconds
         return;
-        
+
         /*
         chart.on('created', function() {
             if (window.__anim21278907124) {
@@ -1494,7 +1494,7 @@ var Dashboard = function() {
         if ($('#m_calendar').length === 0) {
             return;
         }
-        
+
         var todayDate = moment().startOf('day');
         var YM = todayDate.format('YYYY-MM');
         var YESTERDAY = todayDate.clone().subtract(1, 'day').format('YYYY-MM-DD');
@@ -1520,7 +1520,7 @@ var Dashboard = function() {
                     className: "m-fc-event--light m-fc-event--solid-warning"
                 },
                 {
-                    title: 'Conference',                    
+                    title: 'Conference',
                     description: 'Lorem ipsum dolor incid idunt ut labore',
                     start: moment('2017-08-29T13:30:00'),
                     end: moment('2017-08-29T17:30:00'),
@@ -1539,7 +1539,7 @@ var Dashboard = function() {
                     className: "m-fc-event--danger m-fc-event--solid-focus"
                 },
                 {
-                    title: 'Reporting',                    
+                    title: 'Reporting',
                     description: 'Lorem ipsum dolor incid idunt ut labore',
                     start: moment('2017-09-03T13:30:00'),
                     end: moment('2017-09-04T17:30:00'),
@@ -1650,29 +1650,29 @@ var Dashboard = function() {
     var earningsSlide = function() {
 
         var $owl1 = $('.owl-carousel');
-        var $owl2 = $('#m_widget_body_owlcarousel_items'); 
+        var $owl2 = $('#m_widget_body_owlcarousel_items');
 
         $owl1.children().each( function( index ) {
-            $(this).attr( 'data-position', index ); 
+            $(this).attr( 'data-position', index );
         });
 
-        $owl2.owlCarousel({   
+        $owl2.owlCarousel({
             rtl: mUtil.isRTL(),
-            items: 1,            
-            animateIn: 'fadeIn(100)',            
-            loop: true,                                              
+            items: 1,
+            animateIn: 'fadeIn(100)',
+            loop: true,
         });
- 
+
         $owl1.owlCarousel({
             rtl: mUtil.isRTL(),
             center: true,
             loop: true,
-            items: 2,             
+            items: 2,
         });
-         
+
         $(document).on('click', '.carousel', function() {
             $owl1.trigger('to.owl.carousel', $(this).data( 'position' ) );
-        });  
+        });
     }
 
     var personalIncome = function() {
@@ -1945,21 +1945,21 @@ var Dashboard = function() {
 
             var chart = new Chartist.Pie('#m_chart_personal_income_quater_4', {
                 series: [{
-                        value: 37,
+                        value: 7800,
                         className: 'custom',
                         meta: {
                             color: mApp.getColor('warning')
                         }
                     },
                     {
-                        value: 65,
+                        value: 9340,
                         className: 'custom',
                         meta: {
                             color: mApp.getColor('primary')
                         }
                     },
                     {
-                        value: 33,
+                        value: 4033,
                         className: 'custom',
                         meta: {
                             color: mApp.getColor('danger')
@@ -2038,10 +2038,10 @@ var Dashboard = function() {
 				    break;
                 case '#m_personal_income_quater_3':
                     quater3Chart();
-                    break;  
+                    break;
                 case '#m_personal_income_quater_4':
                     quater4Chart();
-                    break;       
+                    break;
 		    }
 	    } );
     }
