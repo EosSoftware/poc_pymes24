@@ -261,7 +261,7 @@
 										<ul class="m-menu__subnav">
 
 											<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-												<a  href="inner.html" class="m-menu__link ">
+												<a  href="inversiones.php" class="m-menu__link ">
 													<i class="m-menu__link-icon flaticon-users"></i>
 													<span class="m-menu__link-text">
 														Reporte de Inversiones
@@ -269,7 +269,7 @@
 												</a>
 											</li>
 											<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-												<a  href="inner.html" class="m-menu__link ">
+												<a  href="#" class="m-menu__link ">
 													<i class="m-menu__link-icon flaticon-users"></i>
 													<span class="m-menu__link-text">
 														Estadísticas
@@ -277,7 +277,7 @@
 												</a>
 											</li>
 											<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-												<a  href="inner.html" class="m-menu__link ">
+												<a  href="#" class="m-menu__link ">
 													<i class="m-menu__link-icon flaticon-users"></i>
 													<span class="m-menu__link-text">
 														Rendimiento
@@ -304,15 +304,15 @@
 										<ul class="m-menu__subnav">
 
 											<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-												<a  href="inner.html" class="m-menu__link ">
+												<a  href="prestamos.php" class="m-menu__link ">
 													<i class="m-menu__link-icon flaticon-users"></i>
 													<span class="m-menu__link-text">
-														Reporte de Inversiones
+														Reporte de crédito
 													</span>
 												</a>
 											</li>
 											<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-												<a  href="inner.html" class="m-menu__link ">
+												<a  href="#" class="m-menu__link ">
 													<i class="m-menu__link-icon flaticon-users"></i>
 													<span class="m-menu__link-text">
 														Estadísticas
@@ -320,7 +320,7 @@
 												</a>
 											</li>
 											<li class="m-menu__item "  m-menu-link-redirect="1" aria-haspopup="true">
-												<a  href="inner.html" class="m-menu__link ">
+												<a  href="#" class="m-menu__link ">
 													<i class="m-menu__link-icon flaticon-users"></i>
 													<span class="m-menu__link-text">
 														Rendimiento
