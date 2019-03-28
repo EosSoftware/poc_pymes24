@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4
@@ -42,8 +43,6 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link rel="shortcut icon" href="assets/demo/demo9/media/img/logo/favicon.ico" />
 	</head>
 	<!-- end::Head -->
-
-
     <!-- end::Body -->
 	<body  class="m--skin- m-page--loading-enabled m-page--loading m-content--skin-light m-header--fixed m-header--fixed-mobile m-aside-left--offcanvas-default m-aside-left--enabled m-aside-left--fixed m-aside-left--skin-dark m-aside--offcanvas-default"  >
 		<!-- begin::Page loader -->
@@ -60,11 +59,9 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!-- end::Page Loader -->
 <!-- begin:: Page -->
 		<div class="m-grid m-grid--hor m-grid--root m-page">
-
 			<!--  -->
-      <?php include('header_form.php')?>
-      <!--  -->
-
+			<?php include('header.php')?>
+			<!--  -->
 								<!-- BEGIN: Left Aside -->
 			<button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn">
 				<i class="la la-close"></i>
@@ -479,7 +476,9 @@ License: You must have a valid license purchased only from themeforest(the above
 						</div>
 						<!-- END: Subheader -->
 						<div class="m-content">
-							<!--Begin::Section-->
+
+							<!-- start content -->
+
 
 
 							<!--begin: Form Wizard-->
@@ -519,7 +518,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span></span>
 															</div>
 															<div class="m-wizard__step-label">
-																Account Setup
+																Información
 															</div>
 														</div>
 													</div>
@@ -1440,6 +1439,19 @@ License: You must have a valid license purchased only from themeforest(the above
 							</div>
 
 							<!--end: Form Wizard-->
+
+
+
+
+
+
+							<!--  -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end:: Body -->
 <!-- begin::Footer -->
 			<footer class="m-grid__item  m-footer ">
 				<div class="m-container m-container--responsive m-container--xxl m-container--full-height">
