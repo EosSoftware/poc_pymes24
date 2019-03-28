@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4
@@ -24,6 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!--begin::Web font -->
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
 		<script>
           WebFont.load({
             google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
@@ -60,7 +60,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- begin:: Page -->
 		<div class="m-grid m-grid--hor m-grid--root m-page">
 			<!--  -->
-			<?php include('header.php')?>
+			<?php include('header_form.php')?>
 			<!--  -->
 								<!-- BEGIN: Left Aside -->
 			<button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn">
@@ -458,17 +458,15 @@ License: You must have a valid license purchased only from themeforest(the above
 							<div class="d-flex align-items-center">
 								<div class="mr-auto">
 									<h3 class="m-subheader__title ">
-										Dashboard
+										Solicita tu crédito
 									</h3>
 								</div>
 								<div>
-									<span class="m-subheader__daterange" id="m_dashboard_daterangepicker">
-										<span class="m-subheader__daterange-label">
-											<span class="m-subheader__daterange-title"></span>
-											<span class="m-subheader__daterange-date m--font-brand"></span>
-										</span>
-										<a href="#" class="btn btn-sm btn-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill">
-											<i class="la la-angle-down"></i>
+
+
+									<span class="m-subheader__daterange">
+									Préstamos con tasas desde 8.5% anual
+
 										</a>
 									</span>
 								</div>
@@ -531,7 +529,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span></span>
 															</div>
 															<div class="m-wizard__step-label">
-																Profile Setup
+																Empresa
 															</div>
 														</div>
 													</div>
@@ -544,7 +542,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span></span>
 															</div>
 															<div class="m-wizard__step-label">
-																Billing Setup
+																Referencias y Banco
 															</div>
 														</div>
 													</div>
@@ -557,7 +555,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span></span>
 															</div>
 															<div class="m-wizard__step-label">
-																Confirmation
+																Comprobantes
 															</div>
 														</div>
 													</div>
@@ -587,324 +585,137 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="m-wizard__form-step m-wizard__form-step--current" id="m_wizard_form_step_1">
 														<div class="m-form__section m-form__section--first">
 															<div class="m-form__heading">
-																<h3 class="m-form__heading-title">Client Details</h3>
+																<h3 class="m-form__heading-title">Información Personal</h3>
+																<span class="m-form__help" style="color:#4e88f1">Si tu negocio factura como persona moral, ingresa los datos de un socio o representante legal </span>
+
+
 															</div>
+
+
 															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">* Name:</label>
-																<div class="col-xl-9 col-lg-9">
-																	<input type="text" name="name" class="form-control m-input" placeholder="" value="Nick Stone">
-																	<span class="m-form__help">Please enter your first and last names</span>
+																<!-- <label class="col-xl-3 col-lg-3 col-form-label"></label> -->
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="*Nombre" value="Marco">
+																	<span class="m-form__help">Por favor ingrese su nombre</span>
+																</div>
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="Segundo Nombre" value="Ramiro">
+																	<span class="m-form__help">Por favor ingrese su segundo Nombre</span>
 																</div>
 															</div>
+
 															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">* Email:</label>
-																<div class="col-xl-9 col-lg-9">
-																	<input type="email" name="email" class="form-control m-input" placeholder="" value="nick.stone@gmail.com">
-																	<span class="m-form__help">We'll never share your email with anyone else</span>
+																<!-- <label class="col-xl-3 col-lg-3 col-form-label">Primer Apellido:</label> -->
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="*Primer Apellido" value="Gonzalez">
+																	<span class="m-form__help">Por favor ingrese su primer apellido</span>
+																</div>
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="*Segundo Apellido" value="Martinez">
+																	<span class="m-form__help">Por favor ingrese su segundo apellido</span>
 																</div>
 															</div>
+
 															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">* Phone</label>
-																<div class="col-xl-9 col-lg-9">
+																<!-- <label class="col-xl-3 col-lg-3 col-form-label">* Email:</label> -->
+																<div class="col-xl-6">
+																	<input type="email" name="email" class="form-control m-input" placeholder="*E-mail" value="marco@decoracion.com">
+																	<span class="m-form__help">Nunca compartiremos tu e-mail y teléfono con nadie más.</span>
+																</div>
+																<div class="col-xl-6">
 																	<div class="input-group">
 																		<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-																		<input type="text" name="phone" class="form-control m-input" placeholder="" value="1-541-754-3010">
+																		<input type="text" name="phone" class="form-control m-input" placeholder="*Teléfono" value="55 8798 8765">
 																	</div>
-																	<span class="m-form__help">Enter your valid phone in US phone format. E.g: 1-541-754-3010</span>
+																	<span class="m-form__help"></span>
 																</div>
 															</div>
+
+															<div class="form-group m-form__group row">
+																<!-- <label class="col-xl-3 col-lg-3 col-form-label">Primer Apellido:</label> -->
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="* Curp" value="AETD760425HMRCDZ03">
+																	<span class="m-form__help">Curp</span>
+																</div>
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="*R.F.C" value="AETD760425-G6D">
+																	<span class="m-form__help">R.F.C</span>
+																</div>
+															</div>
+
+															<div class="col-lg-6 m-form__group-sub">
+																<label class="form-control-label">* Comunicación:</label>
+																<div class="m-checkbox-inline">
+																	<label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+																		<input type="checkbox" name="account_communication[]" checked value="email"> Email
+																		<span></span>
+																	</label>
+																	<label class="m-checkbox m-checkbox--solid  m-checkbox--brand">
+																		<input type="checkbox" name="account_communication[]" value="phone"> Phone
+																		<span></span>
+																	</label>
+																	<label class="m-checkbox m-checkbox--solid  m-checkbox--brand">
+																		<input type="checkbox" name="account_communication[]" value="sms"> WhatsApp
+																		<span></span>
+																	</label>
+																</div>
+																<span class="m-form__help">Seleccione como le gustaria que lo contactaramos</span>
+															</div>
+
+
+															<div class="m-separator m-separator--dashed m-separator--lg"></div>
+															<!--  -->
+															<div class="m-form__heading">
+																<h3 class="m-form__heading-title">Información Financiera</h3>
+															</div>
+															<div class="form-group m-form__group row">
+																<!-- <label class="col-xl-3 col-lg-3 col-form-label">Primer Apellido:</label> -->
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="Ingreso" value="$56,000.00">
+																	<span class="m-form__help">Ingreso mensual neto</span>
+																</div>
+																<div class="col-xl-6">
+																	<input type="text" name="name" class="form-control m-input" placeholder="Ingreso" value="$15,000.00">
+																	<span class="m-form__help">Otros ingresos comprobables</span>
+																</div>
+															</div>
+															<!--  -->
+
+															<!-- INFORMACION DE LA CUENTA -->
+
 														</div>
 														<div class="m-separator m-separator--dashed m-separator--lg"></div>
 														<div class="m-form__section">
 															<div class="m-form__heading">
 																<h3 class="m-form__heading-title">
-																	Mailing Address
-																	<i data-toggle="m-tooltip" data-width="auto" class="m-form__heading-help-icon flaticon-info" title="Some help text goes here"></i>
+																	Información de la Cuenta
+																	<i data-toggle="m-tooltip" data-width="auto" class="m-form__heading-help-icon flaticon-info" title="Informacion con la que ingresaras a tu cuenta CreditoPyme24"></i>
 																</h3>
 															</div>
+
 															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">* Address Line 1:</label>
-																<div class="col-xl-9 col-lg-9">
-																	<input type="text" name="address1" class="form-control m-input" placeholder="" value="Headquarters 1120 N Street Sacramento 916-654-5266">
-																	<span class="m-form__help">Street address, P.O. box, company name, c/o</span>
+																<div class="col-lg-6 m-form__group-sub">
+																	<label class="form-control-label"></label>
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="* Username" value="Marco">
+																	<span class="m-form__help">Tu nombre de usuario para iniciar sesión en tu panel de control</span>
+																</div>
+																<div class="col-lg-6 m-form__group-sub">
+																	<label class="form-control-label"></label>
+																	<input type="password" name="account_password" class="form-control m-input" placeholder="* Contraseña" value="123456">
+																	<span class="m-form__help">Contraseña por favor use letras y al menos un número o símbolo</span>
 																</div>
 															</div>
-															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">Address Line 2:</label>
-																<div class="col-xl-9 col-lg-9">
-																	<input type="text" name="address2" class="form-control m-input" placeholder="" value="P.O. Box 942873 Sacramento, CA 94273-0001">
-																	<span class="m-form__help">Appartment, suite, unit, building, floor, etc</span>
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">* City:</label>
-																<div class="col-xl-9 col-lg-9">
-																	<input type="text" name="city" class="form-control m-input" placeholder="" value="Polo Alto">
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
-																<label class="col-xl-3 col-lg-3 col-form-label">* State:</label>
-																<div class="col-xl-9 col-lg-9">
-																	<input type="text" name="state" class="form-control m-input" placeholder="" value="California">
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
+
+															<!-- <div class="form-group m-form__group row">
 																<label class="col-xl-3 col-lg-3 col-form-label">* Country:</label>
 																<div class="col-xl-9 col-lg-9">
 																	<select name="country" class="form-control m-input">
 																		<option value="">Select</option>
 																		<option value="AF">Afghanistan</option>
 																		<option value="AX">Åland Islands</option>
-																		<option value="AL">Albania</option>
-																		<option value="DZ">Algeria</option>
-																		<option value="AS">American Samoa</option>
-																		<option value="AD">Andorra</option>
-																		<option value="AO">Angola</option>
-																		<option value="AI">Anguilla</option>
-																		<option value="AQ">Antarctica</option>
-																		<option value="AG">Antigua and Barbuda</option>
-																		<option value="AR">Argentina</option>
-																		<option value="AM">Armenia</option>
-																		<option value="AW">Aruba</option>
-																		<option value="AU">Australia</option>
-																		<option value="AT">Austria</option>
-																		<option value="AZ">Azerbaijan</option>
-																		<option value="BS">Bahamas</option>
-																		<option value="BH">Bahrain</option>
-																		<option value="BD">Bangladesh</option>
-																		<option value="BB">Barbados</option>
-																		<option value="BY">Belarus</option>
-																		<option value="BE">Belgium</option>
-																		<option value="BZ">Belize</option>
-																		<option value="BJ">Benin</option>
-																		<option value="BM">Bermuda</option>
-																		<option value="BT">Bhutan</option>
-																		<option value="BO">Bolivia, Plurinational State of</option>
-																		<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
-																		<option value="BA">Bosnia and Herzegovina</option>
-																		<option value="BW">Botswana</option>
-																		<option value="BV">Bouvet Island</option>
-																		<option value="BR">Brazil</option>
-																		<option value="IO">British Indian Ocean Territory</option>
-																		<option value="BN">Brunei Darussalam</option>
-																		<option value="BG">Bulgaria</option>
-																		<option value="BF">Burkina Faso</option>
-																		<option value="BI">Burundi</option>
-																		<option value="KH">Cambodia</option>
-																		<option value="CM">Cameroon</option>
-																		<option value="CA">Canada</option>
-																		<option value="CV">Cape Verde</option>
-																		<option value="KY">Cayman Islands</option>
-																		<option value="CF">Central African Republic</option>
-																		<option value="TD">Chad</option>
-																		<option value="CL">Chile</option>
-																		<option value="CN">China</option>
-																		<option value="CX">Christmas Island</option>
-																		<option value="CC">Cocos (Keeling) Islands</option>
-																		<option value="CO">Colombia</option>
-																		<option value="KM">Comoros</option>
-																		<option value="CG">Congo</option>
-																		<option value="CD">Congo, the Democratic Republic of the</option>
-																		<option value="CK">Cook Islands</option>
-																		<option value="CR">Costa Rica</option>
-																		<option value="CI">Côte d'Ivoire</option>
-																		<option value="HR">Croatia</option>
-																		<option value="CU">Cuba</option>
-																		<option value="CW">Curaçao</option>
-																		<option value="CY">Cyprus</option>
-																		<option value="CZ">Czech Republic</option>
-																		<option value="DK">Denmark</option>
-																		<option value="DJ">Djibouti</option>
-																		<option value="DM">Dominica</option>
-																		<option value="DO">Dominican Republic</option>
-																		<option value="EC">Ecuador</option>
-																		<option value="EG">Egypt</option>
-																		<option value="SV">El Salvador</option>
-																		<option value="GQ">Equatorial Guinea</option>
-																		<option value="ER">Eritrea</option>
-																		<option value="EE">Estonia</option>
-																		<option value="ET">Ethiopia</option>
-																		<option value="FK">Falkland Islands (Malvinas)</option>
-																		<option value="FO">Faroe Islands</option>
-																		<option value="FJ">Fiji</option>
-																		<option value="FI">Finland</option>
-																		<option value="FR">France</option>
-																		<option value="GF">French Guiana</option>
-																		<option value="PF">French Polynesia</option>
-																		<option value="TF">French Southern Territories</option>
-																		<option value="GA">Gabon</option>
-																		<option value="GM">Gambia</option>
-																		<option value="GE">Georgia</option>
-																		<option value="DE">Germany</option>
-																		<option value="GH">Ghana</option>
-																		<option value="GI">Gibraltar</option>
-																		<option value="GR">Greece</option>
-																		<option value="GL">Greenland</option>
-																		<option value="GD">Grenada</option>
-																		<option value="GP">Guadeloupe</option>
-																		<option value="GU">Guam</option>
-																		<option value="GT">Guatemala</option>
-																		<option value="GG">Guernsey</option>
-																		<option value="GN">Guinea</option>
-																		<option value="GW">Guinea-Bissau</option>
-																		<option value="GY">Guyana</option>
-																		<option value="HT">Haiti</option>
-																		<option value="HM">Heard Island and McDonald Islands</option>
-																		<option value="VA">Holy See (Vatican City State)</option>
-																		<option value="HN">Honduras</option>
-																		<option value="HK">Hong Kong</option>
-																		<option value="HU">Hungary</option>
-																		<option value="IS">Iceland</option>
-																		<option value="IN">India</option>
-																		<option value="ID">Indonesia</option>
-																		<option value="IR">Iran, Islamic Republic of</option>
-																		<option value="IQ">Iraq</option>
-																		<option value="IE">Ireland</option>
-																		<option value="IM">Isle of Man</option>
-																		<option value="IL">Israel</option>
-																		<option value="IT">Italy</option>
-																		<option value="JM">Jamaica</option>
-																		<option value="JP">Japan</option>
-																		<option value="JE">Jersey</option>
-																		<option value="JO">Jordan</option>
-																		<option value="KZ">Kazakhstan</option>
-																		<option value="KE">Kenya</option>
-																		<option value="KI">Kiribati</option>
-																		<option value="KP">Korea, Democratic People's Republic of</option>
-																		<option value="KR">Korea, Republic of</option>
-																		<option value="KW">Kuwait</option>
-																		<option value="KG">Kyrgyzstan</option>
-																		<option value="LA">Lao People's Democratic Republic</option>
-																		<option value="LV">Latvia</option>
-																		<option value="LB">Lebanon</option>
-																		<option value="LS">Lesotho</option>
-																		<option value="LR">Liberia</option>
-																		<option value="LY">Libya</option>
-																		<option value="LI">Liechtenstein</option>
-																		<option value="LT">Lithuania</option>
-																		<option value="LU">Luxembourg</option>
-																		<option value="MO">Macao</option>
-																		<option value="MK">Macedonia, the former Yugoslav Republic of</option>
-																		<option value="MG">Madagascar</option>
-																		<option value="MW">Malawi</option>
-																		<option value="MY">Malaysia</option>
-																		<option value="MV">Maldives</option>
-																		<option value="ML">Mali</option>
-																		<option value="MT">Malta</option>
-																		<option value="MH">Marshall Islands</option>
-																		<option value="MQ">Martinique</option>
-																		<option value="MR">Mauritania</option>
-																		<option value="MU">Mauritius</option>
-																		<option value="YT">Mayotte</option>
-																		<option value="MX">Mexico</option>
-																		<option value="FM">Micronesia, Federated States of</option>
-																		<option value="MD">Moldova, Republic of</option>
-																		<option value="MC">Monaco</option>
-																		<option value="MN">Mongolia</option>
-																		<option value="ME">Montenegro</option>
-																		<option value="MS">Montserrat</option>
-																		<option value="MA">Morocco</option>
-																		<option value="MZ">Mozambique</option>
-																		<option value="MM">Myanmar</option>
-																		<option value="NA">Namibia</option>
-																		<option value="NR">Nauru</option>
-																		<option value="NP">Nepal</option>
-																		<option value="NL">Netherlands</option>
-																		<option value="NC">New Caledonia</option>
-																		<option value="NZ">New Zealand</option>
-																		<option value="NI">Nicaragua</option>
-																		<option value="NE">Niger</option>
-																		<option value="NG">Nigeria</option>
-																		<option value="NU">Niue</option>
-																		<option value="NF">Norfolk Island</option>
-																		<option value="MP">Northern Mariana Islands</option>
-																		<option value="NO">Norway</option>
-																		<option value="OM">Oman</option>
-																		<option value="PK">Pakistan</option>
-																		<option value="PW">Palau</option>
-																		<option value="PS">Palestinian Territory, Occupied</option>
-																		<option value="PA">Panama</option>
-																		<option value="PG">Papua New Guinea</option>
-																		<option value="PY">Paraguay</option>
-																		<option value="PE">Peru</option>
-																		<option value="PH">Philippines</option>
-																		<option value="PN">Pitcairn</option>
-																		<option value="PL">Poland</option>
-																		<option value="PT">Portugal</option>
-																		<option value="PR">Puerto Rico</option>
-																		<option value="QA">Qatar</option>
-																		<option value="RE">Réunion</option>
-																		<option value="RO">Romania</option>
-																		<option value="RU">Russian Federation</option>
-																		<option value="RW">Rwanda</option>
-																		<option value="BL">Saint Barthélemy</option>
-																		<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
-																		<option value="KN">Saint Kitts and Nevis</option>
-																		<option value="LC">Saint Lucia</option>
-																		<option value="MF">Saint Martin (French part)</option>
-																		<option value="PM">Saint Pierre and Miquelon</option>
-																		<option value="VC">Saint Vincent and the Grenadines</option>
-																		<option value="WS">Samoa</option>
-																		<option value="SM">San Marino</option>
-																		<option value="ST">Sao Tome and Principe</option>
-																		<option value="SA">Saudi Arabia</option>
-																		<option value="SN">Senegal</option>
-																		<option value="RS">Serbia</option>
-																		<option value="SC">Seychelles</option>
-																		<option value="SL">Sierra Leone</option>
-																		<option value="SG">Singapore</option>
-																		<option value="SX">Sint Maarten (Dutch part)</option>
-																		<option value="SK">Slovakia</option>
-																		<option value="SI">Slovenia</option>
-																		<option value="SB">Solomon Islands</option>
-																		<option value="SO">Somalia</option>
-																		<option value="ZA">South Africa</option>
-																		<option value="GS">South Georgia and the South Sandwich Islands</option>
-																		<option value="SS">South Sudan</option>
-																		<option value="ES">Spain</option>
-																		<option value="LK">Sri Lanka</option>
-																		<option value="SD">Sudan</option>
-																		<option value="SR">Suriname</option>
-																		<option value="SJ">Svalbard and Jan Mayen</option>
-																		<option value="SZ">Swaziland</option>
-																		<option value="SE">Sweden</option>
-																		<option value="CH">Switzerland</option>
-																		<option value="SY">Syrian Arab Republic</option>
-																		<option value="TW">Taiwan, Province of China</option>
-																		<option value="TJ">Tajikistan</option>
-																		<option value="TZ">Tanzania, United Republic of</option>
-																		<option value="TH">Thailand</option>
-																		<option value="TL">Timor-Leste</option>
-																		<option value="TG">Togo</option>
-																		<option value="TK">Tokelau</option>
-																		<option value="TO">Tonga</option>
-																		<option value="TT">Trinidad and Tobago</option>
-																		<option value="TN">Tunisia</option>
-																		<option value="TR">Turkey</option>
-																		<option value="TM">Turkmenistan</option>
-																		<option value="TC">Turks and Caicos Islands</option>
-																		<option value="TV">Tuvalu</option>
-																		<option value="UG">Uganda</option>
-																		<option value="UA">Ukraine</option>
-																		<option value="AE">United Arab Emirates</option>
-																		<option value="GB">United Kingdom</option>
-																		<option value="US" selected>United States</option>
-																		<option value="UM">United States Minor Outlying Islands</option>
-																		<option value="UY">Uruguay</option>
-																		<option value="UZ">Uzbekistan</option>
-																		<option value="VU">Vanuatu</option>
-																		<option value="VE">Venezuela, Bolivarian Republic of</option>
-																		<option value="VN">Viet Nam</option>
-																		<option value="VG">Virgin Islands, British</option>
-																		<option value="VI">Virgin Islands, U.S.</option>
-																		<option value="WF">Wallis and Futuna</option>
-																		<option value="EH">Western Sahara</option>
-																		<option value="YE">Yemen</option>
-																		<option value="ZM">Zambia</option>
-																		<option value="ZW">Zimbabwe</option>
 																	</select>
 																</div>
-															</div>
+															</div> -->
 														</div>
 													</div>
 
@@ -914,68 +725,88 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="m-wizard__form-step" id="m_wizard_form_step_2">
 														<div class="m-form__section m-form__section--first">
 															<div class="m-form__heading">
-																<h3 class="m-form__heading-title">Account Details</h3>
+																<h3 class="m-form__heading-title">Información de la Empresa</h3>
+															</div>
+
+															<div class="form-group m-form__group row">
+															<div class="col-lg-12">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="Empresa" value="GlobalTechnology">
+																<span class="m-form__help">Nombre de la Empresa</span>
+															</div>
+															</div>
+
+															<div class="form-group m-form__group row">
+															<div class="col-lg-12">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="* Calle y Número exterior" value="Roberto Gayol, Ciudad de México, CDMX ">
+																<span class="m-form__help">Dirección de la empresa</span>
+															</div>
 															</div>
 															<div class="form-group m-form__group row">
-																<div class="col-lg-12">
-																	<label class="form-control-label">* URL:</label>
-																	<input type="url" name="account_url" class="form-control m-input" placeholder="" value="http://sinortech.vertoffice.com">
-																	<span class="m-form__help">Please enter your preferred URL to your dashboard</span>
-																</div>
+															<div class="col-lg-4">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="No. Int" value="129">
+																<span class="m-form__help">Número interior</span>
 															</div>
+															<div class="col-lg-2">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="C.P." value="07870">
+																<span class="m-form__help">Código Postal</span>
+															</div>
+															<div class="col-lg-6">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="* Municipio o Delegación" value="Guadalupe Insurgentes ">
+																<span class="m-form__help">Municipio o Delegación</span>
+															</div>
+															</div>
+
 															<div class="form-group m-form__group row">
-																<div class="col-lg-6 m-form__group-sub">
-																	<label class="form-control-label">* Username:</label>
-																	<input type="text" name="account_username" class="form-control m-input" placeholder="" value="nick.stone">
-																	<span class="m-form__help">Your username to login to your dashboard</span>
+															<div class="col-lg-5">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="Teléfono Empresa" value="55 8798 2354">
+																<span class="m-form__help">Teléfono Empresa</span>
+															</div>
+															<div class="col-lg-2">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="Extension" value="118">
+																<span class="m-form__help">Extensión</span>
+															</div>
+															<div class="col-lg-5">
+																<!-- <label class="form-control-label"></label> -->
+																<input type="text" name="account_username" class="form-control m-input" placeholder="Otro Teléfono" value="55 9845 2376">
+																<span class="m-form__help">Otro Teléfono</span>
+															</div>
+														</div>
+															<div class="form-group m-form__group row">
+																<div class="col-lg-6">
+																	<!-- <label class="form-control-label"></label> -->
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Giro de la Empresa" value="Tecnología de Software">
+																	<span class="m-form__help">Giro de la empresa</span>
 																</div>
-																<div class="col-lg-6 m-form__group-sub">
-																	<label class="form-control-label">* Password:</label>
-																	<input type="password" name="account_password" class="form-control m-input" placeholder="" value="qwerty">
-																	<span class="m-form__help">Please use letters and at least one number and symbol</span>
+																<div class="col-xl-6">
+																	<select class="form-control m-input" name="billing_card_exp_month">
+																		<option value="">Selecciona una opción</option>
+																		<option value="01">1-10</option>
+																		<option value="02">11-100</option>
+																		<option value="03">más de 100</option>
+																	</select>
+																	<span class="m-form__help">¿Cuantos trabajan en tu Empresa?</span>
 																</div>
 															</div>
+
+															<div class="form-group m-form__group row">
+															<div class="col-lg-12">
+																<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120407.393440909!2d-99.14648109977736!3d19.42402336113157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff404146935f%3A0xd9505f9206a86dff!2sTravel+Viajes+M%C3%A9xico+(Mayorista)!5e0!3m2!1ses-419!2smx!4v1553749399788" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+															</div>
+															</div>
+
+
+
 														</div>
 														<div class="m-separator m-separator--dashed m-separator--lg"></div>
-														<div class="m-form__section">
-															<div class="m-form__heading">
-																<h3 class="m-form__heading-title">Client Settings</h3>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-6 m-form__group-sub">
-																	<label class="form-control-label">* User Group:</label>
-																	<div class="m-radio-inline">
-																		<label class="m-radio m-radio--solid m-radio--brand">
-																			<input type="radio" name="account_group" checked="" value="2"> Sales Person
-																			<span></span>
-																		</label>
-																		<label class="m-radio m-radio--solid m-radio--brand">
-																			<input type="radio" name="account_group" value="2"> Customer
-																			<span></span>
-																		</label>
-																	</div>
-																	<span class="m-form__help">Please select user group</span>
-																</div>
-																<div class="col-lg-6 m-form__group-sub">
-																	<label class="form-control-label">* Communications:</label>
-																	<div class="m-checkbox-inline">
-																		<label class="m-checkbox m-checkbox--solid m-checkbox--brand">
-																			<input type="checkbox" name="account_communication[]" checked value="email"> Email
-																			<span></span>
-																		</label>
-																		<label class="m-checkbox m-checkbox--solid  m-checkbox--brand">
-																			<input type="checkbox" name="account_communication[]" value="sms"> SMS
-																			<span></span>
-																		</label>
-																		<label class="m-checkbox m-checkbox--solid  m-checkbox--brand">
-																			<input type="checkbox" name="account_communication[]" value="phone"> Phone
-																			<span></span>
-																		</label>
-																	</div>
-																	<span class="m-form__help">Please select user communication options</span>
-																</div>
-															</div>
-														</div>
+
 													</div>
 
 													<!--end: Form Wizard Step 2-->
@@ -984,417 +815,271 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="m-wizard__form-step" id="m_wizard_form_step_3">
 														<div class="m-form__section m-form__section--first">
 															<div class="m-form__heading">
-																<h3 class="m-form__heading-title">Billing Information</h3>
+																<h3 class="m-form__heading-title">Referencias Personales</h3>
+																<label class="form-control-label">Tus referencias sólo serán contactadas para validar tu identidad y en caso de que no podamos contactarte si te retrasas en tus pagos.</label>
 															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-12">
-																	<label class="form-control-label">* Cardholder Name:</label>
-																	<input type="text" name="billing_card_name" class="form-control m-input" placeholder="" value="Nick Stone">
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-12">
-																	<label class="form-control-label">* Card Number:</label>
-																	<input type="text" name="billing_card_number" class="form-control m-input" placeholder="" value="372955886840581">
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-4 m-form__group-sub">
-																	<label class="form-control-label">* Exp Month:</label>
-																	<select class="form-control m-input" name="billing_card_exp_month">
-																		<option value="">Select</option>
-																		<option value="01">01</option>
-																		<option value="02">02</option>
-																		<option value="03">03</option>
-																		<option value="04" selected>04</option>
-																		<option value="05">05</option>
-																		<option value="06">06</option>
-																		<option value="07">07</option>
-																		<option value="08">08</option>
-																		<option value="09">09</option>
-																		<option value="10">10</option>
-																		<option value="11">11</option>
-																		<option value="12">12</option>
-																	</select>
-																</div>
-																<div class="col-lg-4 m-form__group-sub">
-																	<label class="form-control-label">* Exp Year:</label>
-																	<select class="form-control m-input" name="billing_card_exp_year">
-																		<option value="">Select</option>
-																		<option value="2018">2018</option>
-																		<option value="2019">2019</option>
-																		<option value="2020">2020</option>
-																		<option value="2021" selected>2021</option>
-																		<option value="2022">2022</option>
-																		<option value="2023">2023</option>
-																		<option value="2024">2024</option>
-																	</select>
-																</div>
-																<div class="col-lg-4 m-form__group-sub">
-																	<label class="form-control-label">* CVV:</label>
-																	<input type="number" class="form-control m-input" name="billing_card_cvv" placeholder="" value="450">
-																</div>
-															</div>
-														</div>
-														<div class="m-separator m-separator--dashed m-separator--lg"></div>
-														<div class="m-form__section">
-															<div class="m-form__heading">
-																<h3 class="m-form__heading-title">Billing Address <i data-toggle="m-tooltip" data-width="auto" class="m-form__heading-help-icon flaticon-info" title="If different than the corresponding address"></i></h3>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-12">
-																	<label class="form-control-label">* Address 1:</label>
-																	<input type="text" name="billing_address_1" class="form-control m-input" placeholder="" value="Headquarters 1120 N Street Sacramento 916-654-5266">
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-12">
-																	<label class="form-control-label">Address 2:</label>
-																	<input type="text" name="billing_address_2" class="form-control m-input" placeholder="" value="P.O. Box 942873 Sacramento, CA 94273-0001">
-																</div>
-															</div>
-															<div class="form-group m-form__group row">
-																<div class="col-lg-5 m-form__group-sub">
-																	<label class="form-control-label">* City:</label>
-																	<input type="text" class="form-control m-input" name="billing_city" placeholder="" value="Polo Alto">
-																</div>
-																<div class="col-lg-5 m-form__group-sub">
-																	<label class="form-control-label">* State:</label>
-																	<input type="text" class="form-control m-input" name="billing_state" placeholder="" value="California">
-																</div>
-																<div class="col-lg-2 m-form__group-sub">
-																	<label class="form-control-label">* ZIP:</label>
-																	<input type="text" class="form-control m-input" name="billing_zip" placeholder="" value="34890">
-																</div>
-															</div>
-														</div>
-														<div class="m-separator m-separator--dashed m-separator--lg"></div>
-														<div class="m-form__section">
-															<div class="m-form__heading">
-																<h3 class="m-form__heading-title">Delivery Type</h3>
-															</div>
-															<div class="form-group m-form__group">
-																<div class="row">
-																	<div class="col-lg-6">
-																		<label class="m-option">
-																			<span class="m-option__control">
-																				<span class="m-radio m-radio--state-brand">
-																					<input type="radio" name="billing_delivery" value="">
-																					<span></span>
-																				</span>
-																			</span>
-																			<span class="m-option__label">
-																				<span class="m-option__head">
-																					<span class="m-option__title">
-																						Standart Delevery
-																					</span>
-																					<span class="m-option__focus">
-																						Free
-																					</span>
-																				</span>
-																				<span class="m-option__body">
-																					Estimated 14-20 Day Shipping
-																					(&nbsp;Duties end taxes may be due
-																					upon delivery&nbsp;)
-																				</span>
-																			</span>
-																		</label>
-																	</div>
-																	<div class="col-lg-6">
-																		<label class="m-option">
-																			<span class="m-option__control">
-																				<span class="m-radio m-radio--state-brand">
-																					<input type="radio" name="billing_delivery" value="">
-																					<span></span>
-																				</span>
-																			</span>
-																			<span class="m-option__label">
-																				<span class="m-option__head">
-																					<span class="m-option__title">
-																						Fast Delevery
-																					</span>
-																					<span class="m-option__focus">
-																						$&nbsp;8.00
-																					</span>
-																				</span>
-																				<span class="m-option__body">
-																					Estimated 2-5 Day Shipping
-																					(&nbsp;Duties end taxes may be due
-																					upon delivery&nbsp;)
-																				</span>
-																			</span>
-																		</label>
-																	</div>
-																</div>
-																<div class="m-form__help">
 
-																	<!--must use this helper element to display error message for the options-->
+
+															<div class="form-group m-form__group row">
+																<div class="col-md-12">
+																	<label class="form-control-label">Referencia 1</label>
+																</div>
+																<div class="col-xl-3">
+																	<select class="form-control m-input" name="billing_card_exp_month">
+																		<option value="">Parentesco</option>
+																		<option value="01">Familiar</option>
+																		<option value="02">Amigo</option>
+																		<option value="03">Conocido</option>
+																	</select>
+																	<span class="m-form__help"></span>
+																</div>
+																<div class="col-lg-6">
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Nombre" value="Miguel Lopez Gonzalez">
+																	<span class="m-form__help">Nombre de tu Referencia</span>
+																</div>
+																<div class="col-lg-3">
+																	<!-- <label class="form-control-label"></label> -->
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Teléfono " value="55 2376 0934">
+																	<span class="m-form__help">Teléfono</span>
 																</div>
 															</div>
+
+															<div class="form-group m-form__group row">
+																<div class="col-md-12">
+																	<label class="form-control-label">Referencia 2</label>
+																</div>
+																<div class="col-xl-3">
+																	<select class="form-control m-input" name="billing_card_exp_month">
+																		<option value="">Parentesco</option>
+																		<option value="01">Familiar</option>
+																		<option value="02">Amigo</option>
+																		<option value="03">Conocido</option>
+																	</select>
+																	<span class="m-form__help"></span>
+																</div>
+																<div class="col-lg-6">
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Nombre" value="Sarahi Martinez Martinez">
+																	<span class="m-form__help">Nombre de tu Referencia</span>
+																</div>
+																<div class="col-lg-3">
+																	<!-- <label class="form-control-label"></label> -->
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Teléfono " value="55 2376 0934">
+																	<span class="m-form__help">Teléfono</span>
+																</div>
+															</div>
+
+															<div class="form-group m-form__group row">
+																<div class="col-md-12">
+																	<label class="form-control-label">Referencia 3</label>
+																</div>
+																<div class="col-xl-3">
+																	<select class="form-control m-input" name="billing_card_exp_month">
+																		<option value="">Parentesco</option>
+																		<option value="01">Familiar</option>
+																		<option value="02">Amigo</option>
+																		<option value="03">Conocido</option>
+																	</select>
+																	<span class="m-form__help"></span>
+																</div>
+																<div class="col-lg-6">
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Nombre" value="Martin Osorio Gomez">
+																	<span class="m-form__help">Nombre de tu Referencia</span>
+																</div>
+																<div class="col-lg-3">
+																	<!-- <label class="form-control-label"></label> -->
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Teléfono " value="55 2376 0934">
+																	<span class="m-form__help">Teléfono</span>
+																</div>
+															</div>
+
+															<div class="m-separator m-separator--dashed m-separator--lg"></div>
+
+															<div class="m-form__heading">
+																<h3 class="m-form__heading-title">Datos Bancarios</h3>
+																<label class="form-control-label"> Requerimos tus datos bancarios para poder transferirte tu crédito en caso de que sea aprobado.</label>
+															</div>
+
+															<div class="form-group m-form__group row">
+																<div class="col-lg-12">
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Titular" value="Marco Ramiro Gonzalez Martinez">
+																	<span class="m-form__help">Nombre del Titular</span>
+																</div>
+
+															</div>
+
+															<div class="form-group m-form__group row">
+																<div class="col-xl-4">
+																	<select class="form-control m-input" name="billing_card_exp_month">
+																		<option value="">Banco</option>
+																		<option value="01">Banamex</option>
+																		<option value="02">Santander</option>
+																		<option value="03">Bancomer</option>
+																	</select>
+																	<span class="m-form__help"></span>
+																</div>
+																<div class="col-lg-8">
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="Clabe" value="398574638204958374">
+																	<span class="m-form__help">Clabe interbancaria</span>
+																</div>
+
+															</div>
+														<div class="m-separator m-separator--dashed m-separator--lg"></div>
+
+
+														<div class="form-group m-form__group row">
+															<div class="col-lg-12">
+																<!--begin::Form-->
+																<form class="m-form m-form--fit m-form--label-align-right">
+																	<div class="m-portlet__body">
+																		<div class="form-group m-form__group row">
+																			<label class="col-form-label col-lg-12 col-sm-12">Carga tu estado de Cuenta
+																				<br>
+																			<span class="m-form__help">El estado de cuenta no debe ser mayor a 3 Meses</span></label>
+
+																			<div class="col-lg-12 col-md-12 col-sm-12">
+																				<div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-one">
+																					<div class="m-dropzone__msg dz-message needsclick">
+																						<h3 class="m-dropzone__msg-title">Coloque los archivos aquí o haga clic para subir.</h3>
+																						<span class="m-dropzone__msg-desc"><i class="fa fa-files-o" style="font-size: 80px;"></i></span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+
+
+																	</div>
+
+																</form>
+
+																<!--end::Form-->
+
+															</div>
+
 														</div>
 													</div>
 
 													<!--end: Form Wizard Step 3-->
-
-													<!--begin: Form Wizard Step 4-->
-													<div class="m-wizard__form-step" id="m_wizard_form_step_4">
-
-														<!--begin::Section-->
-														<div class="m-accordion m-accordion--default" id="m_accordion_1" role="tablist">
-
-															<!--begin::Item-->
-															<div class="m-accordion__item active">
-																<div class="m-accordion__item-head" role="tab" id="m_accordion_1_item_1_head" data-toggle="collapse" href="#m_accordion_1_item_1_body" aria-expanded="  false">
-																	<span class="m-accordion__item-icon"><i class="fa flaticon-user-ok"></i></span>
-																	<span class="m-accordion__item-title">1. Client Information</span>
-																	<span class="m-accordion__item-mode"></span>
-																</div>
-																<div class="m-accordion__item-body collapse show" id="m_accordion_1_item_1_body" class=" " role="tabpanel" aria-labelledby="m_accordion_1_item_1_head" data-parent="#m_accordion_1">
-
-																	<!--begin::Content-->
-																	<div class="tab-content active  m--padding-30">
-																		<div class="m-form__section m-form__section--first">
-																			<div class="m-form__heading">
-																				<h4 class="m-form__heading-title">Client Details</h4>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Name:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Nick Stone</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Email:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">nick.stone@gmail.com</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Phone</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">+206-78-55034890</span>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="m-separator m-separator--dashed m-separator--lg"></div>
-																		<div class="m-form__section">
-																			<div class="m-form__heading">
-																				<h4 class="m-form__heading-title">Corresponding Address <i data-toggle="m-tooltip" class="m-form__heading-help-icon flaticon-info" title="Some help text goes here"></i></h4>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Address Line 1:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Headquarters 1120 N Street Sacramento 916-654-5266</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Address Line 2:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">P.O. Box 942873 Sacramento, CA 94273-0001</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">City:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Polo Alto</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">State:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">California</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Country:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">USA</span>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-																	<!--end::Section-->
-																</div>
-															</div>
-
-															<!--end::Item-->
-
-															<!--begin::Item-->
-															<div class="m-accordion__item">
-																<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_1_item_2_head" data-toggle="collapse" href="#m_accordion_1_item_2_body" aria-expanded="    false">
-																	<span class="m-accordion__item-icon"><i class="fa  flaticon-placeholder"></i></span>
-																	<span class="m-accordion__item-title">2. Account Setup</span>
-																	<span class="m-accordion__item-mode"></span>
-																</div>
-																<div class="m-accordion__item-body collapse" id="m_accordion_1_item_2_body" class=" " role="tabpanel" aria-labelledby="m_accordion_1_item_2_head" data-parent="#m_accordion_1">
-
-																	<!--begin::Content-->
-																	<div class="tab-content  m--padding-30">
-																		<div class="m-form__section m-form__section--first">
-																			<div class="m-form__heading">
-																				<h4 class="m-form__heading-title">Account Details</h4>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">URL:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">sinortech.vertoffice.com</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Username:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">sinortech.admin</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Password:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">*********</span>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="m-separator m-separator--dashed m-separator--lg"></div>
-																		<div class="m-form__section">
-																			<div class="m-form__heading">
-																				<h4 class="m-form__heading-title">Client Settings</h4>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">User Group:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Customer</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Communications:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Phone, Email</span>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-																	<!--end::Content-->
-																</div>
-															</div>
-
-															<!--end::Item-->
-
-															<!--begin::Item-->
-															<div class="m-accordion__item">
-																<div class="m-accordion__item-head collapsed" role="tab" id="m_accordion_1_item_3_head" data-toggle="collapse" href="#m_accordion_1_item_3_body" aria-expanded="    false">
-																	<span class="m-accordion__item-icon"><i class="fa  flaticon-placeholder"></i></span>
-																	<span class="m-accordion__item-title">3. Billing Setup</span>
-																	<span class="m-accordion__item-mode"></span>
-																</div>
-																<div class="m-accordion__item-body collapse" id="m_accordion_1_item_3_body" class=" " role="tabpanel" aria-labelledby="m_accordion_1_item_3_head" data-parent="#m_accordion_1">
-
-																	<!--begin::Content-->
-																	<div class="tab-content  m--padding-30">
-																		<div class="m-form__section m-form__section--first">
-																			<div class="m-form__heading">
-																				<h4 class="m-form__heading-title">Billing Information</h4>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Cardholder Name:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Nick Stone</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Card Number:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">*************4589</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Exp Month:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">10</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Exp Year:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">2018</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">CVV:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">***</span>
-																				</div>
-																			</div>
-																		</div>
-																		<div class="m-separator m-separator--dashed m-separator--lg"></div>
-																		<div class="m-form__section">
-																			<div class="m-form__heading">
-																				<h4 class="m-form__heading-title">Billing Address</h4>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Address Line 1:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Headquarters 1120 N Street Sacramento 916-654-5266</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Address Line 2:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">P.O. Box 942873 Sacramento, CA 94273-0001</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">City:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">Polo Alto</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">State:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">California</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">ZIP:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">37505</span>
-																				</div>
-																			</div>
-																			<div class="form-group m-form__group m-form__group--sm row">
-																				<label class="col-xl-4 col-lg-4 col-form-label">Country:</label>
-																				<div class="col-xl-8 col-lg-8">
-																					<span class="m-form__control-static">USA</span>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-
-																	<!--end::Content-->
-																</div>
-															</div>
-
-															<!--end::Item-->
-														</div>
-
-														<!--end::Section-->
-
-														<!--end::Section-->
-														<div class="m-separator m-separator--dashed m-separator--lg"></div>
-														<div class="form-group m-form__group m-form__group--sm row">
-															<div class="col-xl-12">
-																<div class="m-checkbox-inline">
-																	<label class="m-checkbox m-checkbox--solid m-checkbox--brand">
-																		<input type="checkbox" name="accept" value="1">
-																		Click here to indicate that you have read and agree to the terms presented in the Terms and Conditions agreement
-																		<span></span>
-																	</label>
-																</div>
-															</div>
-														</div>
 													</div>
 
-													<!--end: Form Wizard Step 4-->
+													<!--begin: Form Wizard Step 3-->
+													<div class="m-wizard__form-step" id="m_wizard_form_step_4">
+														<div class="m-form__section m-form__section--first">
+															<div class="m-form__heading">
+																<h3 class="m-form__heading-title">Comprobantes</h3>
+																<label class="form-control-label"></label>
+															</div>
+														<div class="form-group m-form__group row">
+															<!--begin::Form-->
+															<div class="col-lg-6">
+																<form class="m-form m-form--fit">
+																	<div class="m-portlet__body">
+																		<div class="form-group m-form__group row">
+																			<label class="col-form-label col-lg-12 col-sm-12">Identificación Frontal
+																				<br>
+																			<span class="m-form__help">Parte Frontal de tu identificación</span></label>
+
+																			<div class="col-lg-12 col-md-12 col-sm-12">
+																				<div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-one">
+																					<div class="m-dropzone__msg dz-message needsclick">
+																						<h3 class="m-dropzone__msg-title">Coloque los archivos aquí o haga clic para subir.</h3>
+																						<span class="m-dropzone__msg-desc"><i class="fa fa-vcard-o" style="font-size: 80px;"></i></span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</form>
+															</div>
+															<!--end::Form-->
+															<!--begin::Form-->
+															<div class="col-lg-6">
+																<form class="m-form m-form--fit">
+																	<div class="m-portlet__body">
+																		<div class="form-group m-form__group row">
+																			<label class="col-form-label col-lg-12 col-sm-12">Identificación Trasera
+																				<br>
+																			<span class="m-form__help">Parte Trasera de tu identificación</span></label>
+
+																			<div class="col-lg-12 col-md-12 col-sm-12">
+																				<div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-one">
+																					<div class="m-dropzone__msg dz-message needsclick">
+																						<h3 class="m-dropzone__msg-title">Coloque los archivos aquí o haga clic para subir.</h3>
+																						<span class="m-dropzone__msg-desc"><i class="fa fa-vcard-o" style="font-size: 80px;"></i></span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</form>
+															</div>
+															<!--end::Form-->
+														</div>
+
+														<div class="m-separator m-separator--dashed m-separator--lg"></div>
+
+														<div class="form-group m-form__group row">
+															<!--begin::Form-->
+															<div class="col-lg-12">
+																<form class="m-form m-form--fit">
+																	<div class="m-portlet__body">
+																		<div class="form-group m-form__group row">
+																			<label class="col-form-label col-lg-12 col-sm-12">Comprobante de Domicilio
+																				<br>
+																			<span class="m-form__help">Comprobante de Domicilio no mayor a 3 Meses</span></label>
+
+																			<div class="col-lg-12 col-md-12 col-sm-12">
+																				<div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-one">
+																					<div class="m-dropzone__msg dz-message needsclick">
+																						<h3 class="m-dropzone__msg-title">Coloque los archivos aquí o haga clic para subir.</h3>
+																						<span class="m-dropzone__msg-desc"><i class="fa fa-file-text-o" style="font-size: 80px;"></i></span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</form>
+															</div>
+															<!--end::Form-->
+														</div>
+
+														<div class="m-separator m-separator--dashed m-separator--lg"></div>
+
+														<div class="form-group m-form__group row">
+															<!--begin::Form-->
+															<div class="col-lg-12">
+																<form class="m-form m-form--fit">
+																	<div class="m-portlet__body">
+																		<div class="form-group m-form__group row">
+																			<label class="col-form-label col-lg-12 col-sm-12">Acta constitutiva
+																				<br>
+																			<span class="m-form__help"></span></label>
+
+																			<div class="col-lg-12 col-md-12 col-sm-12">
+																				<div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-one">
+																					<div class="m-dropzone__msg dz-message needsclick">
+																						<h3 class="m-dropzone__msg-title">Coloque los archivos aquí o haga clic para subir.</h3>
+																						<span class="m-dropzone__msg-desc"><i class="fa fa-files-o" style="font-size: 80px;"></i></span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</form>
+															</div>
+															<!--end::Form-->
+														</div>
+
+
+
+
+
+
+
+
+													</div>
+													</div>
+
+													<!--end: Form Wizard Step 3-->
 												</div>
 
 												<!--end: Form Body -->
@@ -1407,7 +1092,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<a href="#" class="btn btn-secondary m-btn m-btn--custom m-btn--icon" data-wizard-action="prev">
 																	<span>
 																		<i class="la la-arrow-left"></i>&nbsp;&nbsp;
-																		<span>Back</span>
+																		<span>Regresar</span>
 																	</span>
 																</a>
 															</div>
@@ -1415,12 +1100,12 @@ License: You must have a valid license purchased only from themeforest(the above
 																<a href="#" class="btn btn-primary m-btn m-btn--custom m-btn--icon" data-wizard-action="submit">
 																	<span>
 																		<i class="la la-check"></i>&nbsp;&nbsp;
-																		<span>Submit</span>
+																		<span>Enviar</span>
 																	</span>
 																</a>
 																<a href="#" class="btn btn-success m-btn m-btn--custom m-btn--icon" data-wizard-action="next">
 																	<span>
-																		<span>Save & Continue</span>&nbsp;&nbsp;
+																		<span>Guardar y Continuar</span>&nbsp;&nbsp;
 																		<i class="la la-arrow-right"></i>
 																	</span>
 																</a>
@@ -1458,9 +1143,9 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
 						<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
 							<span class="m-footer__copyright">
-								2017 &copy; Metronic theme by
-								<a href="https://keenthemes.com" class="m-link">
-									Keenthemes
+								2019 Todos los derechos Reservados ©
+								<a href="#" class="m-link">
+									CreditoPyme24
 								</a>
 							</span>
 						</div>
@@ -1477,20 +1162,6 @@ License: You must have a valid license purchased only from themeforest(the above
 									<a href="#"  class="m-nav__link">
 										<span class="m-nav__link-text">
 											Privacy
-										</span>
-									</a>
-								</li>
-								<li class="m-nav__item">
-									<a href="#" class="m-nav__link">
-										<span class="m-nav__link-text">
-											T&C
-										</span>
-									</a>
-								</li>
-								<li class="m-nav__item">
-									<a href="#" class="m-nav__link">
-										<span class="m-nav__link-text">
-											Purchase
 										</span>
 									</a>
 								</li>
@@ -2161,6 +1832,12 @@ License: You must have a valid license purchased only from themeforest(the above
                 $('body').removeClass('m-page--loading');
             });
 		</script>
+
+		<!--begin::Page Scripts -->
+		<script src="default/assets/demo/custom/crud/wizard/wizard.js" type="text/javascript"></script>
+
+
+
 		<!-- end::Page Loader -->
 	</body>
 	<!-- end::Body -->

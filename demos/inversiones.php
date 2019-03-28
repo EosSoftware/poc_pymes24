@@ -480,6 +480,202 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
 
+							<div class="m-content">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="m-portlet">
+											<div class="m-portlet__body  m-portlet__body--no-padding">
+												<div class="row m-row--no-padding m-row--col-separator-xl">
+													<div class="col-xl-4">
+
+														<!--begin:: Widgets/Stats2-1 -->
+														<div class="m-widget1">
+															<div class="m-widget1__item">
+																<div class="row m-row--no-padding align-items-center">
+																	<div class="col">
+																		<h3 class="m-widget1__title">Inversiones</h3>
+																		<span class="m-widget1__desc">Total de 7 Inversiones</span>
+																	</div>
+																	<div class="col m--align-right">
+																		<span class="m-widget1__number m--font-brand">$17,800</span>
+																	</div>
+																</div>
+															</div>
+															<div class="m-widget1__item">
+																<div class="row m-row--no-padding align-items-center">
+																	<div class="col">
+																		<h3 class="m-widget1__title">Ganancia</h3>
+																		<span class="m-widget1__desc">Ganancia total de (7) inversion</span>
+																	</div>
+																	<div class="col m--align-right">
+																		<span class="m-widget1__number m--font-danger">+$5,800</span>
+																	</div>
+																</div>
+															</div>
+															<div class="m-widget1__item">
+																<div class="row m-row--no-padding align-items-center">
+																	<div class="col">
+																		<h3 class="m-widget1__title">Porcentaje mora</h3>
+																		<span class="m-widget1__desc">Porcentaje de atrasos en pagos</span>
+																	</div>
+																	<div class="col m--align-right">
+																		<span class="m-widget1__number m--font-success">-27,49%</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<!--end:: Widgets/Stats2-1 -->
+													</div>
+													<div class="col-xl-4">
+
+														<!--begin:: Widgets/Daily Sales-->
+														<div class="m-widget14">
+															<div class="m-widget14__header m--margin-bottom-30">
+																<h3 class="m-widget14__title">
+																	Crecimiento de inversiones
+																</h3>
+																<span class="m-widget14__desc">
+																	No. Inversiones: 7 | Recuperadas: 3
+																</span>
+															</div>
+															<div class="m-widget14__chart" style="height:120px;">
+																<canvas id="m_chart_daily_sales"></canvas>
+															</div>
+														</div>
+
+														<!--end:: Widgets/Daily Sales-->
+													</div>
+													<div class="col-xl-4">
+
+														<!--begin:: Widgets/Profit Share-->
+														<div class="m-widget14">
+															<div class="m-widget14__header">
+																<h3 class="m-widget14__title">
+																	Ganancia
+																</h3>
+																<span class="m-widget14__desc">
+																	 por mes
+																</span>
+															</div>
+															<div class="row  align-items-center">
+																<div class="col">
+																	<div id="m_chart_profit_share" class="m-widget14__chart" style="height: 160px">
+																		<div class="m-widget14__stat">MXN</div>
+																	</div>
+																</div>
+																<div class="col">
+																	<div class="m-widget14__legends">
+																		<div class="m-widget14__legend">
+																			<span class="m-widget14__legend-bullet m--bg-accent"></span>
+																			<span class="m-widget14__legend-text">$7,800 Enero</span>
+																		</div>
+																		<div class="m-widget14__legend">
+																			<span class="m-widget14__legend-bullet m--bg-warning"></span>
+																			<span class="m-widget14__legend-text">$9,340 Feb.</span>
+																		</div>
+																		<div class="m-widget14__legend">
+																			<span class="m-widget14__legend-bullet m--bg-brand"></span>
+																			<span class="m-widget14__legend-text">$4,033 Marzo</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<!--end:: Widgets/Profit Share-->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="m-portlet">
+											<div class="m-portlet__head">
+												<div class="m-portlet__head-caption">
+													<div class="m-portlet__head-title">
+														<h3 class="m-portlet__head-text">
+															Detalle de Inversiones
+														</h3>
+													</div>
+												</div>
+											</div>
+											<div class="m-portlet__body">
+
+												<!--begin::Section-->
+												<div class="m-section">
+													<div class="m-section__content">
+														<table class="table m-table">
+															<thead>
+																<tr>
+																	<th>Status</th>
+																	<th>Cliente</th>
+																	<th>Cantidad</th>
+																	<th>Pagado</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="m-table__row--warning">
+																	<th scope="row"><i class="fa  fa-clock"></i></th>
+																	<td>Armando Romero</td>
+																	<td>$15,000.<sup>00</sup></td>
+																	<td>$7,500.<sup>00</sup></td>
+																</tr>
+																<tr class="m-table__row--primary">
+																	<th scope="row"><i class="fa  fa-piggy-bank "></i></th>
+																	<td>Lisa Jimenez</td>
+																	<td>$45,000.<sup>00</sup></td>
+																	<td>$22,500.<sup>00</sup></td>
+																</tr>
+																<tr class="m-table__row--success">
+																	<th scope="row"><i class="fa fa-check-circle"></i></th>
+																	<td>Roberto Rodriguez</td>
+																	<td>$10,000.<sup>00</sup></td>
+																	<td>$10,000.<sup>00</sup></td>
+																</tr>
+																<!-- <tr class="m-table__row--brand"> -->
+																<tr class="m-table__row--success">
+																	<th scope="row"><i class="fa fa-check-circle"></i></th>
+																	<td>Fernanda Escalante</td>
+																	<td>$50,000.<sup>00</sup></td>
+																	<td>$50,000.<sup>00</sup></td>
+																</tr>
+																<tr class="m-table__row--warning">
+																	<th scope="row"><i class="fa  fa-clock"></i></th>
+																	<td>Tania Jaramillo</td>
+																	<td>$50,000.<sup>00</sup></td>
+																	<td>$25,000.<sup>00</sup></td>
+																</tr>
+																<tr class="m-table__row--success">
+																	<th scope="row"><i class="fa fa-check-circle"></i></th>
+																	<td>Sean Kingstone</td>
+																	<td>$20,000.<sup>00</sup></td>
+																	<td>$20,000.<sup>00</sup></td>
+																</tr>
+																<tr class="m-table__row--danger">
+																	<th scope="row"><i class="fa  fa-ban "></i></th>
+																	<td>Susie Su&aacute;rez</td>
+																	<td>$120,000.<sup>00</sup></td>
+																	<td>$60,000.<sup>00</sup></td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</div>
+
+												<!--end::Section-->
+											</div>
+
+											<!--end::Form-->
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
 
 
 
