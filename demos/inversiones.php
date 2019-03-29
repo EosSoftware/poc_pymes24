@@ -592,84 +592,207 @@ License: You must have a valid license purchased only from themeforest(the above
 								</div>
 								<div class="row">
 									<div class="col-md-12">
+
+										<!-- --------------------- tabs -->
+
+										<!-- --------------------- tabs -->
+
 										<div class="m-portlet">
 											<div class="m-portlet__head">
 												<div class="m-portlet__head-caption">
 													<div class="m-portlet__head-title">
 														<h3 class="m-portlet__head-text">
-															Detalle de Inversiones
+															Adjusted Pills
 														</h3>
 													</div>
 												</div>
 											</div>
 											<div class="m-portlet__body">
+												<ul class="nav nav-pills nav-fill" role="tablist">
+													<li class="nav-item">
+														<a class="nav-link active" data-toggle="tab" href="#m_tabs_5_1">Persona</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" data-toggle="tab" href="#m_tabs_5_2">PYME</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" data-toggle="tab" href="#m_tabs_5_3">Link</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link disabled" data-toggle="tab" href="#m_tabs_5_4">Disabled</a>
+													</li>
+												</ul>
+												<div class="tab-content">
+													<div class="tab-pane active" id="m_tabs_5_1" role="tabpanel">
+														<div class="m-portlet">
+															<div class="m-portlet__head">
+																<div class="m-portlet__head-caption">
+																	<div class="m-portlet__head-title">
+																		<h3 class="m-portlet__head-text">
+																			Detalle de Inversiones (Persona)
+																		</h3>
+																	</div>
+																</div>
+															</div>
+															<div class="m-portlet__body">
 
-												<!--begin::Section-->
-												<div class="m-section">
-													<div class="m-section__content">
-														<table class="table m-table">
-															<thead>
-																<tr>
-																	<th>Status</th>
-																	<th>Cliente</th>
-																	<th>Cantidad</th>
-																	<th>Pagado</th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr class="m-table__row--warning">
-																	<th scope="row"><i class="fa  fa-clock"></i></th>
-																	<td>Armando Romero</td>
-																	<td>$15,000.<sup>00</sup></td>
-																	<td>$7,500.<sup>00</sup></td>
-																</tr>
-																<tr class="m-table__row--primary">
-																	<th scope="row"><i class="fa  fa-piggy-bank "></i></th>
-																	<td>Lisa Jimenez</td>
-																	<td>$45,000.<sup>00</sup></td>
-																	<td>$22,500.<sup>00</sup></td>
-																</tr>
-																<tr class="m-table__row--success">
-																	<th scope="row"><i class="fa fa-check-circle"></i></th>
-																	<td>Roberto Rodriguez</td>
-																	<td>$10,000.<sup>00</sup></td>
-																	<td>$10,000.<sup>00</sup></td>
-																</tr>
-																<!-- <tr class="m-table__row--brand"> -->
-																<tr class="m-table__row--success">
-																	<th scope="row"><i class="fa fa-check-circle"></i></th>
-																	<td>Fernanda Escalante</td>
-																	<td>$50,000.<sup>00</sup></td>
-																	<td>$50,000.<sup>00</sup></td>
-																</tr>
-																<tr class="m-table__row--warning">
-																	<th scope="row"><i class="fa  fa-clock"></i></th>
-																	<td>Tania Jaramillo</td>
-																	<td>$50,000.<sup>00</sup></td>
-																	<td>$25,000.<sup>00</sup></td>
-																</tr>
-																<tr class="m-table__row--success">
-																	<th scope="row"><i class="fa fa-check-circle"></i></th>
-																	<td>Sean Kingstone</td>
-																	<td>$20,000.<sup>00</sup></td>
-																	<td>$20,000.<sup>00</sup></td>
-																</tr>
-																<tr class="m-table__row--danger">
-																	<th scope="row"><i class="fa  fa-ban "></i></th>
-																	<td>Susie Su&aacute;rez</td>
-																	<td>$120,000.<sup>00</sup></td>
-																	<td>$60,000.<sup>00</sup></td>
-																</tr>
-															</tbody>
-														</table>
+																<!--begin::Section-->
+																<div class="m-section">
+																	<div class="m-section__content">
+																		<table class="table m-table">
+																			<thead>
+																				<tr>
+																					<th>Status</th>
+																					<th>Cliente</th>
+																					<th>Cantidad</th>
+																					<th>Pagado</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr class="m-table__row--warning">
+																					<th scope="row"><i class="fa  fa-clock"></i></th>
+																					<td>Armando Romero</td>
+																					<td>$15,000.<sup>00</sup></td>
+																					<td>$7,500.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--primary">
+																					<th scope="row"><i class="fa  fa-piggy-bank "></i></th>
+																					<td>Lisa Jimenez</td>
+																					<td>$45,000.<sup>00</sup></td>
+																					<td>$22,500.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--success">
+																					<th scope="row"><i class="fa fa-check-circle"></i></th>
+																					<td>Roberto Rodriguez</td>
+																					<td>$10,000.<sup>00</sup></td>
+																					<td>$10,000.<sup>00</sup></td>
+																				</tr>
+																				<!-- <tr class="m-table__row--brand"> -->
+																				<tr class="m-table__row--success">
+																					<th scope="row"><i class="fa fa-check-circle"></i></th>
+																					<td>Fernanda Escalante</td>
+																					<td>$50,000.<sup>00</sup></td>
+																					<td>$50,000.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--warning">
+																					<th scope="row"><i class="fa  fa-clock"></i></th>
+																					<td>Tania Jaramillo</td>
+																					<td>$50,000.<sup>00</sup></td>
+																					<td>$25,000.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--success">
+																					<th scope="row"><i class="fa fa-check-circle"></i></th>
+																					<td>Sean Kingstone</td>
+																					<td>$20,000.<sup>00</sup></td>
+																					<td>$20,000.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--danger">
+																					<th scope="row"><i class="fa  fa-ban "></i></th>
+																					<td>Susie Su&aacute;rez</td>
+																					<td>$120,000.<sup>00</sup></td>
+																					<td>$60,000.<sup>00</sup></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</div>
+																</div>
+
+																<!--end::Section-->
+															</div>
+
+															<!--end::Form-->
+														</div>
+													</div>
+													<div class="tab-pane" id="m_tabs_5_2" role="tabpanel">
+														<div class="m-portlet">
+															<div class="m-portlet__head">
+																<div class="m-portlet__head-caption">
+																	<div class="m-portlet__head-title">
+																		<h3 class="m-portlet__head-text">
+																			Detalle de Inversiones (PYMES)
+																		</h3>
+																	</div>
+																</div>
+															</div>
+															<div class="m-portlet__body">
+
+																<!--begin::Section-->
+																<div class="m-section">
+																	<div class="m-section__content">
+																		<table class="table m-table">
+																			<thead>
+																				<tr>
+																					<th>Status</th>
+																					<th>Cliente</th>
+																					<th>Cantidad</th>
+																					<th>Pagado</th>
+																				</tr>
+																			</thead>
+																			<tbody>
+																				<tr class="m-table__row--warning">
+																					<th scope="row"><i class="fa  fa-clock"></i></th>
+																					<td>ISOTECH S.A. de C.V.</td>
+																					<td>$15,000.<sup>00</sup></td>
+																					<td>$7,500.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--primary">
+																					<th scope="row"><i class="fa  fa-piggy-bank "></i></th>
+																					<td>Isidio S.A. de C.V.</td>
+																					<td>$45,000.<sup>00</sup></td>
+																					<td>$22,500.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--success">
+																					<th scope="row"><i class="fa fa-check-circle"></i></th>
+																					<td>Rober's Burger</td>
+																					<td>$10,000.<sup>00</sup></td>
+																					<td>$10,000.<sup>00</sup></td>
+																				</tr>
+																				<!-- <tr class="m-table__row--brand"> -->
+																				<tr class="m-table__row--success">
+																					<th scope="row"><i class="fa fa-check-circle"></i></th>
+																					<td>Freakazoid S.A. de C.V.</td>
+																					<td>$7,500,000.<sup>00</sup></td>
+																					<td>$50,000.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--warning">
+																					<th scope="row"><i class="fa  fa-clock"></i></th>
+																					<td>VamFre S.A. de C.V.</td>
+																					<td>$50,000,000.<sup>00</sup></td>
+																					<td>$25,000.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--success">
+																					<th scope="row"><i class="fa fa-check-circle"></i></th>
+																					<td>Sean Kingstone Corp. S.A. de C.V.</td>
+																					<td>$37,200,000.<sup>00</sup></td>
+																					<td>$20,000.<sup>00</sup></td>
+																				</tr>
+																				<tr class="m-table__row--danger">
+																					<th scope="row"><i class="fa  fa-ban "></i></th>
+																					<td>TLOU S.A. de C.V.</td>
+																					<td>$4,120,000.<sup>00</sup></td>
+																					<td>$60,000.<sup>00</sup></td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</div>
+																</div>
+
+																<!--end::Section-->
+															</div>
+
+															<!--end::Form-->
+														</div>
+													</div>
+													<div class="tab-pane" id="m_tabs_5_3" role="tabpanel">
+														[Inactive]
+													</div>
+													<div class="tab-pane" id="m_tabs_5_4" role="tabpanel">
+														[Inactive]
 													</div>
 												</div>
-
-												<!--end::Section-->
 											</div>
-
-											<!--end::Form-->
 										</div>
+
 									</div>
 								</div>
 							</div>
@@ -1344,7 +1467,8 @@ License: You must have a valid license purchased only from themeforest(the above
         <!--begin::Page Vendors -->
 		<script src="assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
 		<!--end::Page Vendors -->
-        <!--begin::Page Snippets -->
+
+    <!--begin::Page Snippets -->
 		<script src="assets/app/js/dashboard.js" type="text/javascript"></script>
 		<!--end::Page Snippets -->
         <!-- begin::Page Loader -->
