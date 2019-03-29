@@ -515,12 +515,8 @@ License: You must have a valid license purchased only from themeforest(the above
 														<div class="m-widget26__number">
 															2
 															<small>
-																Pr&eacute;stamos con Atraso
+																Pr&eacute;stamos con Atraso <i class="fa  fa-clock " ></i>
 															</small>
-														</div>
-														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<!-- <canvas id="m_chart_quick_stats_2"></canvas> -->
-															<i class="fa  fa-clock " style="height:120px;"></i>
 														</div>
 													</div>
 												</div>
@@ -552,9 +548,6 @@ License: You must have a valid license purchased only from themeforest(the above
 															<small>
 																Pr&eacute;stamos en revisi&oacute;n
 															</small>
-														</div>
-														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<!-- <canvas id="m_chart_quick_stats_4"></canvas> -->
 														</div>
 													</div>
 												</div>
@@ -702,9 +695,9 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<td class="m-widget11__price">
 																			Deuda
 																		</td>
-																		<td class="m-widget11__total m--align-right">
+																		<!-- <td class="m-widget11__total m--align-right">
 																			Total
-																		</td>
+																		</td> -->
 																	</tr>
 																</thead>
 																<!--end::Thead-->
@@ -726,7 +719,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			19,200
+																			$19,200,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -735,11 +728,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$63
+																			$400,000.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$14,740
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -757,7 +750,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			24,310
+																			$24,310,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -766,11 +759,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$39
+																			$789,988.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$16,010
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -788,7 +781,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			9,076
+																			$9,076,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -797,11 +790,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$105
+																			$100,000.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$37,200
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -819,7 +812,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			11,094
+																			$11,094,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -828,11 +821,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$16
+																			$10,000,000.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$8,520
-																		</td>
+																		</td> -->
 																	</tr>
 																</tbody>
 																<!--end::Tbody-->
@@ -868,12 +861,12 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<td class="m-widget11__change">
 																			Pagos
 																		</td>
-																		<td class="m-widget11__price">
+																		<!-- <td class="m-widget11__price">
 																			Deuda
-																		</td>
-																		<td class="m-widget11__total m--align-right">
+																		</td> -->
+																		<!-- <td class="m-widget11__total m--align-right">
 																			Total
-																		</td>
+																		</td> -->
 																	</tr>
 																</thead>
 																<!--end::Thead-->
@@ -888,14 +881,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Loop
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				CRM System
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			19,200
+																			$19,200,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -904,11 +897,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$63
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$34,740
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -919,14 +912,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Selto
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				Powerful Website Builder
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			24,310
+																			$24,310,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -935,11 +928,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$39
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$46,010
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -950,14 +943,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Jippo
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				Pr&oacute;ximo pago: Marzo 31,2019
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			9,076
+																			$9,076,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -966,11 +959,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$105
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$67,800
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -981,14 +974,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Verto
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				Web Development Tool
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			11,094
+																			$11,094,000.<sup>00</sup>
 																		</td>
 																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
@@ -997,11 +990,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</div>
 																		</td> -->
 																		<td>
-																			$16
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$18,520
-																		</td>
+																		</td> -->
 																	</tr>
 																</tbody>
 																<!--end::Tbody-->
