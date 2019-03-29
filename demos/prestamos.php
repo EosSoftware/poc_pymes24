@@ -16,7 +16,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<head>
 		<meta charset="utf-8" />
 		<title>
-			CreditoPyme24
+			Metronic | Dashboard
 		</title>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,6 +40,12 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link href="assets/demo/demo9/base/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Base Styles -->
 		<link rel="shortcut icon" href="assets/demo/demo9/media/img/logo/favicon.ico" />
+
+		<!-- morris -->
+		<link href="../morris/morris.css" rel="stylesheet" type="text/css" />
+		<!-- morris -->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
 	<!-- end::Head -->
     <!-- end::Body -->
@@ -477,6 +483,11 @@ License: You must have a valid license purchased only from themeforest(the above
 						<div class="m-content">
 							<!--Begin::Section-->
 							<div class="row">
+								<div class="col-md-12">
+									<!-- <div id="graph" style="height:250px;"></div> -->
+								</div>
+							</div>
+							<div class="row">
 								<div class="col-xl-6">
 									<!--begin:: Widgets/Quick Stats-->
 									<div class="row m-row--full-height">
@@ -491,7 +502,8 @@ License: You must have a valid license purchased only from themeforest(the above
 															</small>
 														</div>
 														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<canvas id="m_chart_quick_stats_1"></canvas>
+															<!-- <div id="graph" style="height:50px;"></div> -->
+															<div id="graph" style="height:120px;"></div>
 														</div>
 													</div>
 												</div>
@@ -503,11 +515,8 @@ License: You must have a valid license purchased only from themeforest(the above
 														<div class="m-widget26__number">
 															2
 															<small>
-																Pr&eacute;stamos con Atraso
+																Pr&eacute;stamos con Atraso <i class="fa  fa-clock " ></i>
 															</small>
-														</div>
-														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<canvas id="m_chart_quick_stats_2"></canvas>
 														</div>
 													</div>
 												</div>
@@ -524,7 +533,8 @@ License: You must have a valid license purchased only from themeforest(the above
 															</small>
 														</div>
 														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<canvas id="m_chart_quick_stats_3"></canvas>
+															<!-- <canvas id="m_chart_quick_stats_3"></canvas> -->
+															<div id="graph-2" style="height:120px;"></div>
 														</div>
 													</div>
 												</div>
@@ -538,9 +548,6 @@ License: You must have a valid license purchased only from themeforest(the above
 															<small>
 																Pr&eacute;stamos en revisi&oacute;n
 															</small>
-														</div>
-														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<canvas id="m_chart_quick_stats_4"></canvas>
 														</div>
 													</div>
 												</div>
@@ -682,15 +689,15 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<td class="m-widget11__sales">
 																			Cantidad
 																		</td>
-																		<td class="m-widget11__change">
+																		<!-- <td class="m-widget11__change">
 																			Pagos
-																		</td>
+																		</td> -->
 																		<td class="m-widget11__price">
 																			Deuda
 																		</td>
-																		<td class="m-widget11__total m--align-right">
+																		<!-- <td class="m-widget11__total m--align-right">
 																			Total
-																		</td>
+																		</td> -->
 																	</tr>
 																</thead>
 																<!--end::Thead-->
@@ -712,20 +719,20 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			19,200
+																			$19,200,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_1_1" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$63
+																			$400,000.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$14,740
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -743,20 +750,20 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			24,310
+																			$24,310,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_1_2" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$39
+																			$789,988.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$16,010
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -774,20 +781,20 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			9,076
+																			$9,076,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_1_3" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$105
+																			$100,000.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$37,200
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -805,20 +812,20 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</span>
 																		</td>
 																		<td>
-																			11,094
+																			$11,094,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_1_4" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$16
+																			$10,000,000.<sup>00</sup>
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$8,520
-																		</td>
+																		</td> -->
 																	</tr>
 																</tbody>
 																<!--end::Tbody-->
@@ -854,12 +861,12 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<td class="m-widget11__change">
 																			Pagos
 																		</td>
-																		<td class="m-widget11__price">
+																		<!-- <td class="m-widget11__price">
 																			Deuda
-																		</td>
-																		<td class="m-widget11__total m--align-right">
+																		</td> -->
+																		<!-- <td class="m-widget11__total m--align-right">
 																			Total
-																		</td>
+																		</td> -->
 																	</tr>
 																</thead>
 																<!--end::Thead-->
@@ -874,27 +881,27 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Loop
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				CRM System
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			19,200
+																			$19,200,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_2_1" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$63
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$34,740
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -905,27 +912,27 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Selto
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				Powerful Website Builder
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			24,310
+																			$24,310,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_2_2" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$39
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$46,010
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -936,27 +943,27 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Jippo
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				Pr&oacute;ximo pago: Marzo 31,2019
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			9,076
+																			$9,076,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_2_3" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$105
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$67,800
-																		</td>
+																		</td> -->
 																	</tr>
 																	<tr>
 																		<td>
@@ -967,27 +974,27 @@ License: You must have a valid license purchased only from themeforest(the above
 																		</td>
 																		<td>
 																			<span class="m-widget11__title">
-																				Verto
+																				En Espera
 																			</span>
 																			<span class="m-widget11__sub">
-																				Web Development Tool
+																				Respuesta el día:
 																			</span>
 																		</td>
 																		<td>
-																			11,094
+																			$11,094,000.<sup>00</sup>
 																		</td>
-																		<td>
+																		<!-- <td>
 																			<div class="m-widget11__chart" style="height:50px; width: 100px">
 																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
 																				<canvas id="m_chart_sales_by_apps_2_4" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
 																			</div>
-																		</td>
+																		</td> -->
 																		<td>
-																			$16
+																			36 Meses
 																		</td>
-																		<td class="m--align-right m--font-brand">
+																		<!-- <td class="m--align-right m--font-brand">
 																			$18,520
-																		</td>
+																		</td> -->
 																	</tr>
 																</tbody>
 																<!--end::Tbody-->
@@ -1169,45 +1176,59 @@ License: You must have a valid license purchased only from themeforest(the above
 				</div>
 			</div>
 			<!-- end:: Body -->
-			<!-- begin::Footer -->
-						<footer class="m-grid__item  m-footer ">
-							<div class="m-container m-container--responsive m-container--xxl m-container--full-height">
-								<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
-									<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
-										<span class="m-footer__copyright">
-											2019 Todos los derechos Reservados ©
-											<a href="#" class="m-link">
-												CreditoPyme24
-											</a>
+<!-- begin::Footer -->
+			<footer class="m-grid__item  m-footer ">
+				<div class="m-container m-container--responsive m-container--xxl m-container--full-height">
+					<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
+						<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
+							<span class="m-footer__copyright">
+								2017 &copy; Metronic theme by
+								<a href="https://keenthemes.com" class="m-link">
+									Keenthemes
+								</a>
+							</span>
+						</div>
+						<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
+							<ul class="m-footer__nav m-nav m-nav--inline m--pull-right">
+								<li class="m-nav__item">
+									<a href="#" class="m-nav__link">
+										<span class="m-nav__link-text">
+											About
 										</span>
-									</div>
-									<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
-										<ul class="m-footer__nav m-nav m-nav--inline m--pull-right">
-											<li class="m-nav__item">
-												<a href="#" class="m-nav__link">
-													<span class="m-nav__link-text">
-														About
-													</span>
-												</a>
-											</li>
-											<li class="m-nav__item">
-												<a href="#"  class="m-nav__link">
-													<span class="m-nav__link-text">
-														Privacy
-													</span>
-												</a>
-											</li>
-											<li class="m-nav__item m-nav__item--last">
-												<a href="#" class="m-nav__link" data-toggle="m-tooltip" title="Support Center" data-placement="left">
-													<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</footer>
-						<!-- end::Footer -->
+									</a>
+								</li>
+								<li class="m-nav__item">
+									<a href="#"  class="m-nav__link">
+										<span class="m-nav__link-text">
+											Privacy
+										</span>
+									</a>
+								</li>
+								<li class="m-nav__item">
+									<a href="#" class="m-nav__link">
+										<span class="m-nav__link-text">
+											T&C
+										</span>
+									</a>
+								</li>
+								<li class="m-nav__item">
+									<a href="#" class="m-nav__link">
+										<span class="m-nav__link-text">
+											Purchase
+										</span>
+									</a>
+								</li>
+								<li class="m-nav__item m-nav__item--last">
+									<a href="#" class="m-nav__link" data-toggle="m-tooltip" title="Support Center" data-placement="left">
+										<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- end::Footer -->
 		</div>
 		<!-- end:: Page -->
     		        <!-- begin::Quick Sidebar -->
@@ -1818,8 +1839,41 @@ License: You must have a valid license purchased only from themeforest(the above
 			<i class="la la-arrow-up"></i>
 		</div>
 		<!-- end::Scroll Top -->		    <!-- begin::Quick Nav -->
-
+		<ul class="m-nav-sticky" style="margin-top: 30px;">
+			<!--
+			<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Showcase" data-placement="left">
+				<a href="">
+					<i class="la la-eye"></i>
+				</a>
+			</li>
+			<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Pre-sale Chat" data-placement="left">
+				<a href="" >
+					<i class="la la-comments-o"></i>
+				</a>
+			</li>
+			-->
+			<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Purchase" data-placement="left">
+				<a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" target="_blank">
+					<i class="la la-cart-arrow-down"></i>
+				</a>
+			</li>
+			<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Documentation" data-placement="left">
+				<a href="https://keenthemes.com/metronic/documentation.html" target="_blank">
+					<i class="la la-code-fork"></i>
+				</a>
+			</li>
+			<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Support" data-placement="left">
+				<a href="https://keenthemes.com/forums/forum/support/metronic5/" target="_blank">
+					<i class="la la-life-ring"></i>
+				</a>
+			</li>
+		</ul>
 		<!-- begin::Quick Nav -->
+
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.js"></script>
+
     	<!--begin::Base Scripts -->
 		<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 		<script src="assets/demo/demo9/base/scripts.bundle.js" type="text/javascript"></script>
@@ -1831,10 +1885,80 @@ License: You must have a valid license purchased only from themeforest(the above
 		<script src="assets/app/js/dashboard.js" type="text/javascript"></script>
 		<!--end::Page Snippets -->
         <!-- begin::Page Loader -->
+
+		<!--begin::Global Theme Bundle -->
+		<script src="default/assets/demo/base/scripts.bundle.js" type="text/javascript"></script>
+		<!--end::Global Theme Bundle -->
+
+		<!-- morris -->
+		<script src="../morris/morris.js" type="text/javascript"></script>
+		<script src="../morris/examples/lib/example.js" type="text/javascript"></script>
+		<!-- morris -->
+
 		<script>
             $(window).on('load', function() {
                 $('body').removeClass('m-page--loading');
             });
+		</script>
+		<script>
+		// Use Morris.Bar
+		Morris.Bar({
+		  element: 'graph',
+		  data: [
+		    {x: '2011 Q1', y: 250000},
+		    {x: '2011 Q2', y: 330000},
+		    {x: '2011 Q3', y: 560000},
+		    {x: '2011 Q4', y: 160000}
+		  ],
+		  xkey: 'x',
+		  ykeys: ['y'],
+		  labels: ['Y'],
+		  barColors: function (row, series, type) {
+		    if (type === 'bar') {
+		      var red = Math.ceil(255 * row.y / this.ymax);
+		      return 'rgb(' + red + ',0,0)';
+		    }
+		    else {
+		      return '#000';
+		    }
+		  }
+		});
+		</script>
+		<script>
+		Morris.Donut({
+      element: 'graph-2',
+      data: [
+        {value: 70, label: 'foo'},
+        {value: 15, label: 'bar'},
+        {value: 10, label: 'baz'},
+        {value: 5, label: 'A really really long label'}
+      ],
+      backgroundColor: '#ccc',
+      labelColor: '#060',
+      colors: [
+        '#0BA462',
+        '#39B580',
+        '#67C69D',
+        '#95D7BB'
+      ],
+      formatter: function (x) { return x + "%"}
+    });
+		</script>
+		<script>
+		/* data stolen from http://howmanyleft.co.uk/vehicle/jaguar_'e'_type */
+var day_data = [
+	{"period": "2012-10-01", "licensed": 3407, "sorned": 660},
+	{"period": "2012-09-30", "licensed": 3351, "sorned": 629}
+
+];
+Morris.Bar({
+	element: 'graph-3',
+	data: day_data,
+	xkey: 'period',
+	ykeys: ['licensed', 'sorned'],
+	labels: ['Licensed', 'SORN'],
+	xLabelAngle: 60
+});
 		</script>
 		<!-- end::Page Loader -->
 	</body>
