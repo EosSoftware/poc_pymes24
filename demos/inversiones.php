@@ -476,7 +476,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<!-- END: Subheader -->
 						<div class="m-content">
 
-							<!-- start content -->
+							<!-- --------------------------------------------------- start content -->
 
 
 
@@ -497,7 +497,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<span class="m-widget1__desc">Total de 7 Inversiones</span>
 																	</div>
 																	<div class="col m--align-right">
-																		<span class="m-widget1__number m--font-brand">$17,800</span>
+																		<span class="m-widget1__number m--font-brand">$310,800.<sup>00</sup></span>
 																	</div>
 																</div>
 															</div>
@@ -508,7 +508,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<span class="m-widget1__desc">Ganancia total de (7) inversion</span>
 																	</div>
 																	<div class="col m--align-right">
-																		<span class="m-widget1__number m--font-danger">+$5,800</span>
+																		<span class="m-widget1__number  m--font-success">+$175,800.<sup>00</sup></span>
 																	</div>
 																</div>
 															</div>
@@ -519,7 +519,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<span class="m-widget1__desc">Porcentaje de atrasos en pagos</span>
 																	</div>
 																	<div class="col m--align-right">
-																		<span class="m-widget1__number m--font-success">-27,49%</span>
+																		<span class="m-widget1__number m--font-danger">-1,49%</span>
 																	</div>
 																</div>
 															</div>
@@ -568,15 +568,15 @@ License: You must have a valid license purchased only from themeforest(the above
 																	<div class="m-widget14__legends">
 																		<div class="m-widget14__legend">
 																			<span class="m-widget14__legend-bullet m--bg-accent"></span>
-																			<span class="m-widget14__legend-text">$7,800 Enero</span>
+																			<span class="m-widget14__legend-text">$7,8K Enero</span>
 																		</div>
 																		<div class="m-widget14__legend">
 																			<span class="m-widget14__legend-bullet m--bg-warning"></span>
-																			<span class="m-widget14__legend-text">$9,340 Feb.</span>
+																			<span class="m-widget14__legend-text">$9,3K Feb.</span>
 																		</div>
 																		<div class="m-widget14__legend">
 																			<span class="m-widget14__legend-bullet m--bg-brand"></span>
-																			<span class="m-widget14__legend-text">$4,033 Marzo</span>
+																			<span class="m-widget14__legend-text">$4K Marzo</span>
 																		</div>
 																	</div>
 																</div>
@@ -615,12 +615,12 @@ License: You must have a valid license purchased only from themeforest(the above
 													<li class="nav-item">
 														<a class="nav-link" data-toggle="tab" href="#m_tabs_5_2">PYME</a>
 													</li>
-													<li class="nav-item">
+													<!-- <li class="nav-item">
 														<a class="nav-link" data-toggle="tab" href="#m_tabs_5_3">Link</a>
 													</li>
 													<li class="nav-item">
 														<a class="nav-link disabled" data-toggle="tab" href="#m_tabs_5_4">Disabled</a>
-													</li>
+													</li> -->
 												</ul>
 												<div class="tab-content">
 													<div class="tab-pane active" id="m_tabs_5_1" role="tabpanel">
@@ -732,39 +732,39 @@ License: You must have a valid license purchased only from themeforest(the above
 																				<tr class="m-table__row--warning">
 																					<th scope="row"><i class="fa  fa-clock"></i></th>
 																					<td>ISOTECH S.A. de C.V.</td>
-																					<td>$15,000.<sup>00</sup></td>
+																					<td>$3,170,000.<sup>00</sup></td>
 																					<td>$7,500.<sup>00</sup></td>
 																				</tr>
 																				<tr class="m-table__row--primary">
 																					<th scope="row"><i class="fa  fa-piggy-bank "></i></th>
-																					<td>Isidio S.A. de C.V.</td>
-																					<td>$45,000.<sup>00</sup></td>
+																					<td>Insidio S.A. de C.V.</td>
+																					<td>$4,050,000.<sup>00</sup></td>
 																					<td>$22,500.<sup>00</sup></td>
 																				</tr>
 																				<tr class="m-table__row--success">
 																					<th scope="row"><i class="fa fa-check-circle"></i></th>
 																					<td>Rober's Burger</td>
-																					<td>$10,000.<sup>00</sup></td>
-																					<td>$10,000.<sup>00</sup></td>
+																					<td>$10,000,000.<sup>00</sup></td>
+																					<td>$4,000,000.<sup>00</sup></td>
 																				</tr>
 																				<!-- <tr class="m-table__row--brand"> -->
 																				<tr class="m-table__row--success">
 																					<th scope="row"><i class="fa fa-check-circle"></i></th>
 																					<td>Freakazoid S.A. de C.V.</td>
 																					<td>$7,500,000.<sup>00</sup></td>
-																					<td>$50,000.<sup>00</sup></td>
+																					<td>$4,000,000.<sup>00</sup></td>
 																				</tr>
 																				<tr class="m-table__row--warning">
 																					<th scope="row"><i class="fa  fa-clock"></i></th>
 																					<td>VamFre S.A. de C.V.</td>
 																					<td>$50,000,000.<sup>00</sup></td>
-																					<td>$25,000.<sup>00</sup></td>
+																					<td>$3,025,000.<sup>00</sup></td>
 																				</tr>
 																				<tr class="m-table__row--success">
 																					<th scope="row"><i class="fa fa-check-circle"></i></th>
 																					<td>Sean Kingstone Corp. S.A. de C.V.</td>
 																					<td>$37,200,000.<sup>00</sup></td>
-																					<td>$20,000.<sup>00</sup></td>
+																					<td>$20,000,000.<sup>00</sup></td>
 																				</tr>
 																				<tr class="m-table__row--danger">
 																					<th scope="row"><i class="fa  fa-ban "></i></th>
@@ -783,12 +783,12 @@ License: You must have a valid license purchased only from themeforest(the above
 															<!--end::Form-->
 														</div>
 													</div>
-													<div class="tab-pane" id="m_tabs_5_3" role="tabpanel">
+													<!-- <div class="tab-pane" id="m_tabs_5_3" role="tabpanel">
 														[Inactive]
 													</div>
 													<div class="tab-pane" id="m_tabs_5_4" role="tabpanel">
 														[Inactive]
-													</div>
+													</div> -->
 												</div>
 											</div>
 										</div>
@@ -802,7 +802,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
 
-							<!--  -->
+							<!-- --------------------------------------------------- start content -->
 
 						</div>
 					</div>
