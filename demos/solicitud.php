@@ -16,7 +16,7 @@ License: You must have a valid license purchased only from themeforest(the above
 	<head>
 		<meta charset="utf-8" />
 		<title>
-			Metronic | Dashboard
+			CreditoPyme24
 		</title>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -465,7 +465,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
 									<span class="m-subheader__daterange">
-									Préstamos con tasas desde 8.5% anual
+									Préstamos con tasa desde 12.00%
 
 										</a>
 									</span>
@@ -1786,7 +1786,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			<i class="la la-arrow-up"></i>
 		</div>
 		<!-- end::Scroll Top -->		    <!-- begin::Quick Nav -->
-		
+
 		<!-- begin::Quick Nav -->
     	<!--begin::Base Scripts -->
 		<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>

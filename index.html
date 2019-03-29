@@ -85,15 +85,22 @@
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active"><a href="demos/solicitud.php">Quiero un crédito</a></li>
+							<li class=""><a href="demos/solicitud.php">Quiero un crédito</a></li>
 							<li><a href="#">Preguntas frecuentes</a></li>
 							<li><a href="#">Contacto</a></li>
 							<li><a href="#">Iniciar sesión</a></li>
-							<li><a href="#">Registrate </a>
+							<li><a href="#">Mi Portafolio </a>
 								<ul class="fh5co-sub-menu">
-									<li><a href="#">Necesito un crédito</a></li>
+									<li><a href="demos/prestamos.php">Mis Prestamos</a></li>
+									<li><a href="demos/inversiones.php">Mis Inversiones</a></li>
 								</ul>
 							</li>
+							<li><a href="#">Bienvenido Mark</a></li>
+							<!-- <li><a href="#">Registrate </a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="demos/inversiones.php">Necesito un crédito</a></li>
+								</ul>
+							</li> -->
 						</ul>
 					</nav>
 				</div>
@@ -121,12 +128,12 @@
 								  <!-- Nav tabs -->
 								   <ul class="nav nav-tabs" role="tablist">
 								      <li role="presentation" class="active">
-								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Calculadora de crédito</a>
-								      </li>
-								      <!-- <li role="presentation">
-								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Hotels</a>
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">Pymes</a>
 								      </li>
 								      <li role="presentation">
+								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">Personas Físicas</a>
+								      </li>
+								      <!-- <li role="presentation">
 								    	   <a href="#packages" aria-controls="packages" role="tab" data-toggle="tab">Packages</a>
 								      </li> -->
 								   </ul>
@@ -135,14 +142,8 @@
 									<div class="tab-content">
 									 <div role="tabpanel" class="tab-pane active" id="flights">
 										<div class="row">
-
-
-
-
-
 											<img src="slider.jpg" alt="" width="100%">
-											<br>
-											<br>
+
 											<!-- <div class="col-xxs-12 col-xs-12 mt">
 												<div class="input-field">
 													<div id="appearance4"></div>
@@ -190,8 +191,10 @@
 
 											<div class="col-xxs-12 col-xs-12 mt" style="text-align: right;">
 												<div class="input-field">
-													<label for="from">Tasa Anual</label>
-													<input type="text" class="" id="from-place" placeholder="Tasa Anual 12.00%" style="width: 55%;" readonly="readonly"/>
+													<div class="" style="background-color:#f68535;padding: 10px 0px;width:55%;float:right;text-align: left;">
+														<span> &nbsp;<b>Tasa Anual 12.00%</b></span>
+													</div>
+													<!-- <input type="text" class="" id="from-place" placeholder="Tasa Anual 12.00%" style="width: 55%;" readonly="readonly"/> -->
 												</div>
 											</div>
 
@@ -201,134 +204,6 @@
 											</div> -->
 										</div>
 									 </div>
-
-									 <!-- <div role="tabpanel" class="tab-pane" id="hotels">
-									 	<div class="row">
-											<div class="col-xxs-12 col-xs-12 mt">
-												<div class="input-field">
-													<label for="from">City:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
-												</div>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-start">Return:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
-												</div>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-end">Check Out:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
-												</div>
-											</div>
-											<div class="col-sm-12 mt">
-												<section>
-													<label for="class">Rooms:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="economy">1</option>
-														<option value="first">2</option>
-														<option value="business">3</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Adult:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Children:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Search Hotel">
-											</div>
-										</div>
-									 </div> -->
-
-									 <!-- <div role="tabpanel" class="tab-pane" id="packages">
-									 	<div class="row">
-											<div class="col-xxs-12 col-xs-6 mt">
-												<div class="input-field">
-													<label for="from">City:</label>
-													<input type="text" class="form-control" id="from-place" placeholder="Los Angeles, USA"/>
-												</div>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<div class="input-field">
-													<label for="from">Destination:</label>
-													<input type="text" class="form-control" id="to-place" placeholder="Tokyo, Japan"/>
-												</div>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-start">Departs:</label>
-													<input type="text" class="form-control" id="date-start" placeholder="mm/dd/yyyy"/>
-												</div>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt alternate">
-												<div class="input-field">
-													<label for="date-end">Return:</label>
-													<input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
-												</div>
-											</div>
-											<div class="col-sm-12 mt">
-												<section>
-													<label for="class">Rooms:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="economy">1</option>
-														<option value="first">2</option>
-														<option value="business">3</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Adult:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xxs-12 col-xs-6 mt">
-												<section>
-													<label for="class">Children:</label>
-													<select class="cs-select cs-skin-border">
-														<option value="" disabled selected>1</option>
-														<option value="1">1</option>
-														<option value="2">2</option>
-														<option value="3">3</option>
-														<option value="4">4</option>
-													</select>
-												</section>
-											</div>
-											<div class="col-xs-12">
-												<input type="submit" class="btn btn-primary btn-block" value="Search Packages">
-											</div>
-										</div>
-									 </div> -->
 									</div>
 
 								</div>
@@ -369,9 +244,8 @@
 									<br>
 									<br>
 									<div class="col-xs-12">
-										<input type="submit" class="btn btn-primary btn-block" value="Solicitar crédito">
+										<a href="demos/solicitud.php"><input type="submit" class="btn btn-primary btn-block" value="Solicitar crédito"></a>
 									</div>
-									<!-- <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p> -->
 								</div>
 							</div>
 						</div>
