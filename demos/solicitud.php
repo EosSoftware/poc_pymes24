@@ -516,7 +516,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span></span>
 															</div>
 															<div class="m-wizard__step-label">
-																Información
+																Representante Legal
 															</div>
 														</div>
 													</div>
@@ -595,7 +595,7 @@ License: You must have a valid license purchased only from themeforest(the above
 															<div class="form-group m-form__group row">
 																<!-- <label class="col-xl-3 col-lg-3 col-form-label"></label> -->
 																<div class="col-xl-6">
-																	<input type="text" name="name" class="form-control m-input" placeholder="*Nombre" value="Marco">
+																	<input type="text" name="name" class="form-control m-input" placeholder="*Nombre" value="Pedro">
 																	<span class="m-form__help">Por favor ingrese su nombre</span>
 																</div>
 																<div class="col-xl-6">
@@ -696,7 +696,7 @@ License: You must have a valid license purchased only from themeforest(the above
 															<div class="form-group m-form__group row">
 																<div class="col-lg-6 m-form__group-sub">
 																	<label class="form-control-label"></label>
-																	<input type="text" name="account_username" class="form-control m-input" placeholder="* Username" value="Marco">
+																	<input type="text" name="account_username" class="form-control m-input" placeholder="* Username" value="Pedro">
 																	<span class="m-form__help">Tu nombre de usuario para iniciar sesión en tu panel de control</span>
 																</div>
 																<div class="col-lg-6 m-form__group-sub">
@@ -974,7 +974,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<form class="m-form m-form--fit">
 																	<div class="m-portlet__body">
 																		<div class="form-group m-form__group row">
-																			<label class="col-form-label col-lg-12 col-sm-12">Identificación Frontal
+																			<label class="col-form-label col-lg-12 col-sm-12">Identificación (INE) Frontal
 																				<br>
 																			<span class="m-form__help">Parte Frontal de tu identificación</span></label>
 
@@ -996,7 +996,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<form class="m-form m-form--fit">
 																	<div class="m-portlet__body">
 																		<div class="form-group m-form__group row">
-																			<label class="col-form-label col-lg-12 col-sm-12">Identificación Trasera
+																			<label class="col-form-label col-lg-12 col-sm-12">Identificación (INE) Trasera
 																				<br>
 																			<span class="m-form__help">Parte Trasera de tu identificación</span></label>
 
@@ -1097,10 +1097,10 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 															</div>
 															<div class="col-lg-6 m--align-right">
-																<a href="#" class="btn btn-primary m-btn m-btn--custom m-btn--icon" data-wizard-action="submit">
+																<a href="validacion.php" class="btn btn-primary m-btn m-btn--custom m-btn--icon" data-wizard-action="submit">
 																	<span>
 																		<i class="la la-check"></i>&nbsp;&nbsp;
-																		<span>Enviar</span>
+																		 <span>Enviar</span>
 																	</span>
 																</a>
 																<a href="#" class="btn btn-success m-btn m-btn--custom m-btn--icon" data-wizard-action="next">

@@ -167,16 +167,16 @@ if (slider) {
   var etq = document.querySelector('#tools');
   if (etq) {
     // el valor de la etiqueta (el tooltip)
-    etq.innerHTML = slider.value;
+    etq.innerHTML = slider.value + 'MDP';
 
     // calcula la posición inicial de la etiqueta (el tooltip);
-    var pxls = w / 100;
+    var pxls = w / 40;
 
     etq.style.left = ((slider.value * pxls)) + 'px';
 
     slider.addEventListener('input', function() {
       // cambia el valor de la etiqueta (el tooltip)
-      etq.innerHTML = slider.value;
+      etq.innerHTML = slider.value + 'MDP';
       // cambia la posición de la etiqueta (el tooltip)
       etq.style.left = ((slider.value * pxls)) + 'px';
 
@@ -207,8 +207,8 @@ if (sliderMes) {
 
 
 
-		var pxls = w/100;
-		var k = (inputMax - inputMin)/100;
+		var pxls = w/40;
+		var k = (inputMax - inputMin)/40;
 
 
 		var valorCalculado = ((sliderMes.value-inputMin)/k)*pxls;

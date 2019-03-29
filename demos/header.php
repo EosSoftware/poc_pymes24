@@ -6,15 +6,15 @@
 			<div class="m-stack__item m-brand m-brand--mobile">
 				<div class="m-stack m-stack--ver m-stack--general">
 					<div class="m-stack__item m-stack__item--middle m-brand__logo">
-						<a href="index.html" class="m-brand__logo-wrapper">
+						<a href="#" class="m-brand__logo-wrapper">
 							<img alt="" src="assets/demo/demo9/media/img/logo/logo.png"/>
 						</a>
 					</div>
 					<div class="m-stack__item m-stack__item--middle m-brand__tools">
 						<!-- BEGIN: Responsive Aside Left Menu Toggler -->
-						<a href="javascript:;" id="m_aside_left_toggle_mobile" class="m-brand__icon m-brand__toggler m-brand__toggler--left">
+						<!-- <a href="javascript:;" id="m_aside_left_toggle_mobile" class="m-brand__icon m-brand__toggler m-brand__toggler--left">
 							<span></span>
-						</a>
+						</a> -->
 						<!-- END -->
 				<!-- BEGIN: Responsive Header Menu Toggler -->
 						<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler">
@@ -47,15 +47,14 @@
 						<div id="m_header_menu" class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-light m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-dark m-aside-header-menu-mobile--submenu-skin-dark "  >
 							<ul class="m-menu__nav  m-menu__nav--submenu-arrow ">
 								<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"  m-menu-submenu-toggle="click" aria-haspopup="true">
-									<a  href="javascript:;" class="m-menu__link m-menu__toggle">
+									<!-- <a  href="javascript:;" class="m-menu__link m-menu__toggle">
 										<span class="m-menu__item-here"></span>
 										<i class="m-menu__link-icon flaticon-analytics"></i>
 										<span class="m-menu__link-text">
 											Dashboard
 										</span>
-										<!-- <i class="m-menu__hor-arrow la la-angle-down"></i>
-										<i class="m-menu__ver-arrow la la-angle-right"></i> -->
-									</a>
+
+									</a> -->
 									<!-- <div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--left">
 										<span class="m-menu__arrow m-menu__arrow--adjust"></span>
 										<ul class="m-menu__subnav">
@@ -396,7 +395,7 @@
 			</div>
 			<div class="m-stack__item m-stack__item--middle m-stack__item--center">
 				<!-- BEGIN: Brand -->
-				<a href="index.html" class="m-brand m-brand--desktop">
+				<a href="../index.html" class="m-brand m-brand--desktop">
 					<img alt="" src="assets/demo/demo9/media/img/logo/logo.png"/>
 				</a>
 				<!-- END: Brand -->
@@ -453,10 +452,10 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 									<div class="m-dropdown__inner">
 										<div class="m-dropdown__header m--align-center">
 											<span class="m-dropdown__header-title">
-												9 New
+												9 Nuevas
 											</span>
 											<span class="m-dropdown__header-subtitle">
-												User Notifications
+											 Notificaciones de Usiario
 											</span>
 										</div>
 										<div class="m-dropdown__body">
@@ -464,19 +463,19 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 												<ul class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">
 													<li class="nav-item m-tabs__item">
 														<a class="nav-link m-tabs__link active" data-toggle="tab" href="#topbar_notifications_notifications" role="tab">
-															Alerts
+															Alertas
 														</a>
 													</li>
 													<li class="nav-item m-tabs__item">
 														<a class="nav-link m-tabs__link" data-toggle="tab" href="#topbar_notifications_events" role="tab">
-															Events
+															Eventos
 														</a>
 													</li>
-													<li class="nav-item m-tabs__item">
+													<!-- <li class="nav-item m-tabs__item">
 														<a class="nav-link m-tabs__link" data-toggle="tab" href="#topbar_notifications_logs" role="tab">
 															Logs
 														</a>
-													</li>
+													</li> -->
 												</ul>
 												<div class="tab-content">
 													<div class="tab-pane active" id="topbar_notifications_notifications" role="tabpanel">
@@ -486,18 +485,18 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 																	<div class="m-list-timeline__item">
 																		<span class="m-list-timeline__badge -m-list-timeline__badge--state-success"></span>
 																		<span class="m-list-timeline__text">
-																			12 new users registered
+																			5 Nuevas Inversiones
 																		</span>
 																		<span class="m-list-timeline__time">
-																			Just now
+																			Justo Ahora
 																		</span>
 																	</div>
 																	<div class="m-list-timeline__item">
 																		<span class="m-list-timeline__badge"></span>
 																		<span class="m-list-timeline__text">
-																			System shutdown
+																			1 Crédito
 																			<span class="m-badge m-badge--success m-badge--wide">
-																				pending
+																				Pendiente
 																			</span>
 																		</span>
 																		<span class="m-list-timeline__time">
@@ -507,7 +506,7 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 																	<div class="m-list-timeline__item">
 																		<span class="m-list-timeline__badge"></span>
 																		<span class="m-list-timeline__text">
-																			New invoice received
+																			Nuevo Mensaje CreditoPyme
 																		</span>
 																		<span class="m-list-timeline__time">
 																			20 mins
@@ -516,57 +515,30 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 																	<div class="m-list-timeline__item">
 																		<span class="m-list-timeline__badge"></span>
 																		<span class="m-list-timeline__text">
-																			DB overloaded 80%
+																			1 Inversión
 																			<span class="m-badge m-badge--info m-badge--wide">
-																				settled
+																				Nueva
 																			</span>
 																		</span>
 																		<span class="m-list-timeline__time">
 																			1 hr
 																		</span>
 																	</div>
-																	<div class="m-list-timeline__item">
-																		<span class="m-list-timeline__badge"></span>
-																		<span class="m-list-timeline__text">
-																			System error -
-																			<a href="#" class="m-link">
-																				Check
-																			</a>
-																		</span>
-																		<span class="m-list-timeline__time">
-																			2 hrs
-																		</span>
-																	</div>
+
 																	<div class="m-list-timeline__item m-list-timeline__item--read">
 																		<span class="m-list-timeline__badge"></span>
 																		<span href="" class="m-list-timeline__text">
-																			New order received
+																			1 Pago pendiente
 																			<span class="m-badge m-badge--danger m-badge--wide">
-																				urgent
+																				Urgente
 																			</span>
 																		</span>
 																		<span class="m-list-timeline__time">
 																			7 hrs
 																		</span>
 																	</div>
-																	<div class="m-list-timeline__item m-list-timeline__item--read">
-																		<span class="m-list-timeline__badge"></span>
-																		<span class="m-list-timeline__text">
-																			Production server down
-																		</span>
-																		<span class="m-list-timeline__time">
-																			3 hrs
-																		</span>
-																	</div>
-																	<div class="m-list-timeline__item">
-																		<span class="m-list-timeline__badge"></span>
-																		<span class="m-list-timeline__text">
-																			Production server up
-																		</span>
-																		<span class="m-list-timeline__time">
-																			5 hrs
-																		</span>
-																	</div>
+
+
 																</div>
 															</div>
 														</div>
@@ -712,7 +684,7 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 							<li class="m-nav__item m-dropdown m-dropdown--medium m-dropdown--arrow  m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light" m-dropdown-toggle="click">
 								<a href="#" class="m-nav__link m-dropdown__toggle">
 									<span class="m-topbar__username m--hidden-mobile">
-										Mark
+										Admin
 									</span>
 									<span class="m-topbar__userpic">
 										<img src="assets/app/media/img/users/user4.jpg" class="m--img-rounded m--marginless m--img-centered" alt=""/>
@@ -733,10 +705,10 @@ m-dropdown-toggle="click" m-dropdown-persistent="1" id="m_quicksearch" m-quickse
 												</div>
 												<div class="m-card-user__details">
 													<span class="m-card-user__name m--font-weight-500">
-														Mark Andre
+														Pedro Gonzalez
 													</span>
 													<a href="" class="m-card-user__email m--font-weight-300 m-link">
-														mark.andre@gmail.com
+														pedro.gonzalez@gmail.com
 													</a>
 												</div>
 											</div>

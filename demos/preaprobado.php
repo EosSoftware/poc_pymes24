@@ -18,11 +18,17 @@ License: You must have a valid license purchased only from themeforest(the above
 		<title>
 			CreditoPyme24
 		</title>
+		<script language="JavaScript">
+  function redireccionar() {
+    setTimeout("location.href='../index.html'", 10000);
+  }
+  </script>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!--begin::Web font -->
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+
 		<script>
           WebFont.load({
             google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
@@ -40,16 +46,10 @@ License: You must have a valid license purchased only from themeforest(the above
 		<link href="assets/demo/demo9/base/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Base Styles -->
 		<link rel="shortcut icon" href="assets/demo/demo9/media/img/logo/favicon.ico" />
-
-		<!-- morris -->
-		<link href="../morris/morris.css" rel="stylesheet" type="text/css" />
-		<!-- morris -->
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
 	<!-- end::Head -->
     <!-- end::Body -->
-	<body  class="m--skin- m-page--loading-enabled m-page--loading m-content--skin-light m-header--fixed m-header--fixed-mobile m-aside-left--offcanvas-default m-aside-left--enabled m-aside-left--fixed m-aside-left--skin-dark m-aside--offcanvas-default"  >
+	<body onLoad="redireccionar()"  class="m--skin- m-page--loading-enabled m-page--loading m-content--skin-light m-header--fixed m-header--fixed-mobile m-aside-left--offcanvas-default m-aside-left--enabled m-aside-left--fixed m-aside-left--skin-dark m-aside--offcanvas-default" style="background: #def0fc;" >
 		<!-- begin::Page loader -->
 		<div class="m-page-loader m-page-loader--base">
 			<div class="m-blockui">
@@ -65,7 +65,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- begin:: Page -->
 		<div class="m-grid m-grid--hor m-grid--root m-page">
 			<!--  -->
-			<?php include('header.php')?>
+			<?php include('header_form.php')?>
 			<!--  -->
 								<!-- BEGIN: Left Aside -->
 			<button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn">
@@ -456,765 +456,95 @@ License: You must have a valid license purchased only from themeforest(the above
 			<!-- END: Left Aside -->
 		<!-- begin::Body -->
 			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--hor-desktop m-grid--desktop m-body">
-				<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-container m-container--responsive m-container--xxl m-container--full-height">
-					<div class="m-grid__item m-grid__item--fluid m-wrapper">
-						<!-- BEGIN: Subheader -->
-						<div class="m-subheader ">
-							<div class="d-flex align-items-center">
-								<div class="mr-auto">
-									<h3 class="m-subheader__title ">
-										Dashboard
-									</h3>
+
+
+						<div class="" style="text-align:center">
+							<center>
+								<br>
+								<br>
+								<br>
+								<div class="col-md-6">
+									<span style="color:#7a7b7f;font-size:15px"><b>Bienvenido a CreditoPyme24, Pedro!</b></span>
+									<br>
+									<span style="color:#7a7b7f">Tu crédito Scoring</span>
 								</div>
-								<div>
-									<span class="m-subheader__daterange" id="m_dashboard_daterangepicker">
-										<span class="m-subheader__daterange-label">
-											<span class="m-subheader__daterange-title"></span>
-											<span class="m-subheader__daterange-date m--font-brand"></span>
-										</span>
-										<a href="#" class="btn btn-sm btn-brand m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill">
-											<i class="la la-angle-down"></i>
-										</a>
+								<br>
+								<br>
+								<br>
+
+							<div class="col-md-6">
+								<img src="scoring.png" alt="" width="400PX">
+							</div>
+							<br>
+							<br>
+							<div class="col-md-6">
+								<span style="color:#7a7b7f"><b><span style="font-size:20px">Felicidades tu crédito a sido Preaprobado</span></b> <br>uno de nuestros asesores se pondra en contacto contigo en menos de 24 hrs para finalizar tu solicitud.
+								<br>Se han enviado tus datos de acceso por correo electrónico</span>
+							</div>
+							<br>
+							<br>
+
+
+								<div class="m-blockui" style="text-align:center">
+									<span>
+										Redireccionando a Página principal...
+									</span>
+									<span>
+										<div class="m-loader m-loader--brand"></div>
 									</span>
 								</div>
-							</div>
-						</div>
-						<!-- body -->
-						<div class="m-content">
-							<!--Begin::Section-->
-							<div class="row">
-								<div class="col-md-12">
-									<!-- <div id="graph" style="height:250px;"></div> -->
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xl-6">
-									<!--begin:: Widgets/Quick Stats-->
-									<div class="row m-row--full-height">
-										<div class="col-sm-12 col-md-12 col-lg-6">
-											<div class="m-portlet m-portlet--half-height m-portlet--border-bottom-brand ">
-												<div class="m-portlet__body">
-													<div class="m-widget26">
-														<div class="m-widget26__number">
-															145
-															<small>
-																Pr&eacute;stamos Activos.
-															</small>
-														</div>
-														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<!-- <div id="graph" style="height:50px;"></div> -->
-															<div id="graph" style="height:120px;"></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="m--space-30"></div>
-											<div class="m-portlet m-portlet--half-height m-portlet--border-bottom-danger ">
-												<div class="m-portlet__body">
-													<div class="m-widget26">
-														<div class="m-widget26__number">
-															2
-															<small>
-																Pr&eacute;stamos con Atraso <i class="fa  fa-clock " ></i>
-															</small>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-12 col-md-12 col-lg-6">
-											<div class="m-portlet m-portlet--half-height m-portlet--border-bottom-success ">
-												<div class="m-portlet__body">
-													<div class="m-widget26">
-														<div class="m-widget26__number">
-															6
-															<small>
-																Nuevas Solicitudes
-															</small>
-														</div>
-														<div class="m-widget26__chart" style="height:90px; width: 220px;">
-															<!-- <canvas id="m_chart_quick_stats_3"></canvas> -->
-															<div id="graph-2" style="height:120px;"></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="m--space-30"></div>
-											<div class="m-portlet m-portlet--half-height m-portlet--border-bottom-accent ">
-												<div class="m-portlet__body">
-													<div class="m-widget26">
-														<div class="m-widget26__number">
-															4
-															<small>
-																Pr&eacute;stamos en revisi&oacute;n
-															</small>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!--end:: Widgets/Quick Stats-->
-								</div>
-								<div class="col-xl-6">
-									<!--begin:: Widgets/Finance Summary-->
-									<div class="m-portlet m-portlet--full-height m-portlet--fit ">
-										<div class="m-portlet__head">
-											<div class="m-portlet__head-caption">
-												<div class="m-portlet__head-title">
-													<h3 class="m-portlet__head-text">
-														Balance por mes
-													</h3>
-												</div>
-											</div>
-											<div class="m-portlet__head-tools">
-												<ul class="nav nav-pills nav-pills--brand m-nav-pills--align-right m-nav-pills--btn-pill m-nav-pills--btn-sm" role="tablist">
-													<li class="nav-item m-tabs__item">
-														<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_widget4_tab1_content" role="tab">
-															Mes
-														</a>
-													</li>
-													<li class="nav-item m-tabs__item">
-														<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_widget4_tab2_content" role="tab">
-															Año
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="m-portlet__body">
-											<div class="tab-content">
-												<div class="tab-pane active">
-													<div class="m-widget12 m-widget12--chart-bottom m--margin-top-10" style="min-height: 450px">
-														<div class="m-widget12__item">
-															<span class="m-widget12__text1">
-																Pagos de tasa
-																<br>
-																<span>
-																	$352.<sup>531</sup>
-																</span>
-															</span>
-															<span class="m-widget12__text2">
-																Siguiente Pago
-																<br>
-																<span>
-																	$519.<sup>74</sup>
-																</span>
-																<span>
-																	- Marzo 31,2019
-																</span>
-															</span>
-														</div>
-														<div class="m-widget12__item">
-															<span class="m-widget12__text1">
-																Total de deuda
-																<br>
-																<span>
-																	$60,070.<sup>776</sup>
-																</span>
-															</span>
-															<div class="m-widget12__text2">
-																<div class="m-widget12__desc">
-																	Porcentaje de deuda
-																</div>
-																<br>
-																<div class="m-widget12__progress">
-																	<div class="m-widget12__progress-sm progress m-progress--sm">
-																		<div class="m-widget12__progress-bar progress-bar bg-brand" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-																	</div>
-																	<span class="m-widget12__stats">
-																		63%
-																	</span>
-																</div>
-															</div>
-														</div>
-														<div class="m-widget12__chart m-portlet-fit--sides" style="height:290px;">
-															<canvas id="m_chart_finance_summary"></canvas>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane"></div>
-											</div>
-										</div>
-									</div>
-									<!--end:: Widgets/Finance Summary-->
-								</div>
-							</div>
-							<!--End::Section-->
-							<!--Begin::Section-->
-							<div class="row">
-								<div class="col-xl-12">
-									<!--begin:: Widgets/Application Sales-->
-									<div class="m-portlet m-portlet--full-height ">
-										<div class="m-portlet__head">
-											<div class="m-portlet__head-caption">
-												<div class="m-portlet__head-title">
-													<h3 class="m-portlet__head-text">
-														Listado de Pr&eacute;stamos
-													</h3>
-												</div>
-											</div>
-											<div class="m-portlet__head-tools">
-												<ul class="nav nav-pills nav-pills--brand m-nav-pills--align-right m-nav-pills--btn-pill m-nav-pills--btn-sm" role="tablist">
-													<li class="nav-item m-tabs__item">
-														<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_widget11_tab1_content" role="tab">
-															Activas
-														</a>
-													</li>
-													<li class="nav-item m-tabs__item">
-														<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_widget11_tab2_content" role="tab">
-															En Revisi&oacute;n
-														</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="m-portlet__body">
-											<div class="tab-content">
-												<div class="tab-pane active" id="m_widget11_tab1_content">
-													<!--begin::Widget 11-->
-													<div class="m-widget11">
-														<div class="table-responsive">
-															<!--begin::Table-->
-															<table class="table">
-																<!--begin::Thead-->
-																<thead>
-																	<tr>
-																		<td class="m-widget11__label">
-																			Estatus
-																		</td>
-																		<td class="m-widget11__app">
-																			No. Pr&eacute;stamo
-																		</td>
-																		<td class="m-widget11__sales">
-																			Cantidad
-																		</td>
-																		<!-- <td class="m-widget11__change">
-																			Pagos
-																		</td> -->
-																		<td class="m-widget11__price">
-																			Deuda
-																		</td>
-																		<!-- <td class="m-widget11__total m--align-right">
-																			Total
-																		</td> -->
-																	</tr>
-																</thead>
-																<!--end::Thead-->
-																<!--begin::Tbody-->
-																<tbody>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				Pr&eacute;stamo 1
-																			</span>
-																			<span class="m-widget11__sub">
-																				Pr&oacute;ximo pago: Abril 2,2019
-																			</span>
-																		</td>
-																		<td>
-																			$19,200,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_1_1" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			$400,000.<sup>00</sup>
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$14,740
-																		</td> -->
-																	</tr>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				Pr&eacute;stamo 2
-																			</span>
-																			<span class="m-widget11__sub">
-																				Pr&oacute;ximo pago: Abril 02,2019
-																			</span>
-																		</td>
-																		<td>
-																			$24,310,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_1_2" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			$789,988.<sup>00</sup>
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$16,010
-																		</td> -->
-																	</tr>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				Pr&eacute;stamo 3
-																			</span>
-																			<span class="m-widget11__sub">
-																				Pr&oacute;ximo pago: Marzo 31,2019
-																			</span>
-																		</td>
-																		<td>
-																			$9,076,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_1_3" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			$100,000.<sup>00</sup>
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$37,200
-																		</td> -->
-																	</tr>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				Pr&eacute;stamo 4
-																			</span>
-																			<span class="m-widget11__sub">
-																				Pr&oacute;ximo pago: Abril 03,2019
-																			</span>
-																		</td>
-																		<td>
-																			$11,094,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_1_4" style="display: block; width: 100px; height: 50px;" width="100" height="50"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			$10,000,000.<sup>00</sup>
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$8,520
-																		</td> -->
-																	</tr>
-																</tbody>
-																<!--end::Tbody-->
-															</table>
-															<!--end::Table-->
-														</div>
-														<div class="m-widget11__action m--align-right">
-															<button type="button" class="btn m-btn--pill btn-secondary m-btn m-btn--custom m-btn--hover-brand">
-																Generar Reporte
-															</button>
-														</div>
-													</div>
-													<!--end::Widget 11-->
-												</div>
-												<div class="tab-pane" id="m_widget11_tab2_content">
-													<!--begin::Widget 11-->
-													<div class="m-widget11">
-														<div class="table-responsive">
-															<!--begin::Table-->
-															<table class="table">
-																<!--begin::Thead-->
-																<thead>
-																	<tr>
-																		<td class="m-widget11__label">
-																			Estatus
-																		</td>
-																		<td class="m-widget11__app">
-																			No. Pr&eacute;stamo
-																		</td>
-																		<td class="m-widget11__sales">
-																			Cantidad
-																		</td>
-																		<td class="m-widget11__change">
-																			Pagos
-																		</td>
-																		<!-- <td class="m-widget11__price">
-																			Deuda
-																		</td> -->
-																		<!-- <td class="m-widget11__total m--align-right">
-																			Total
-																		</td> -->
-																	</tr>
-																</thead>
-																<!--end::Thead-->
-																<!--begin::Tbody-->
-																<tbody>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				En Espera
-																			</span>
-																			<span class="m-widget11__sub">
-																				Respuesta el día:
-																			</span>
-																		</td>
-																		<td>
-																			$19,200,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_2_1" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			36 Meses
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$34,740
-																		</td> -->
-																	</tr>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				En Espera
-																			</span>
-																			<span class="m-widget11__sub">
-																				Respuesta el día:
-																			</span>
-																		</td>
-																		<td>
-																			$24,310,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_2_2" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			36 Meses
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$46,010
-																		</td> -->
-																	</tr>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				En Espera
-																			</span>
-																			<span class="m-widget11__sub">
-																				Respuesta el día:
-																			</span>
-																		</td>
-																		<td>
-																			$9,076,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_2_3" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			36 Meses
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$67,800
-																		</td> -->
-																	</tr>
-																	<tr>
-																		<td>
-																			<label class="m-checkbox m-checkbox--solid m-checkbox--single m-checkbox--brand">
-																				<input type="checkbox">
-																				<span></span>
-																			</label>
-																		</td>
-																		<td>
-																			<span class="m-widget11__title">
-																				En Espera
-																			</span>
-																			<span class="m-widget11__sub">
-																				Respuesta el día:
-																			</span>
-																		</td>
-																		<td>
-																			$11,094,000.<sup>00</sup>
-																		</td>
-																		<!-- <td>
-																			<div class="m-widget11__chart" style="height:50px; width: 100px">
-																				<iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-																				<canvas id="m_chart_sales_by_apps_2_4" style="display: block; width: 0px; height: 0px;" height="0" width="0"></canvas>
-																			</div>
-																		</td> -->
-																		<td>
-																			36 Meses
-																		</td>
-																		<!-- <td class="m--align-right m--font-brand">
-																			$18,520
-																		</td> -->
-																	</tr>
-																</tbody>
-																<!--end::Tbody-->
-															</table>
-															<!--end::Table-->
-														</div>
-														<div class="m-widget11__action m--align-right">
-															<button type="button" class="btn m-btn--pill btn-secondary m-btn m-btn--custom m-btn--hover-brand">
-																Generate Report
-															</button>
-														</div>
-													</div>
-													<!--end::Widget 11-->
-												</div>
-											</div>
-										</div>
-									</div>
-									<!--end:: Widgets/Application Sales-->
-								</div>
-								<div class="col-xl-4">
-									<!--begin:: Widgets/Latest Updates>
-									<div class="m-portlet m-portlet--full-height m-portlet--fit ">
-										<div class="m-portlet__head">
-											<div class="m-portlet__head-caption">
-												<div class="m-portlet__head-title">
-													<h3 class="m-portlet__head-text">
-														Latest Updates
-													</h3>
-												</div>
-											</div>
-											<div class="m-portlet__head-tools">
-												<ul class="m-portlet__nav">
-													<li class="m-portlet__nav-item m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push" m-dropdown-toggle="hover">
-														<a href="#" class="m-portlet__nav-link m-dropdown__toggle dropdown-toggle btn btn--sm m-btn--pill btn-secondary m-btn m-btn--label-brand">
-															Today
-														</a>
-														<div class="m-dropdown__wrapper">
-															<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
-															<div class="m-dropdown__inner">
-																<div class="m-dropdown__body">
-																	<div class="m-dropdown__content">
-																		<ul class="m-nav">
-																			<li class="m-nav__item">
-																				<a href="" class="m-nav__link">
-																					<i class="m-nav__link-icon flaticon-share"></i>
-																					<span class="m-nav__link-text">
-																						Activity
-																					</span>
-																				</a>
-																			</li>
-																			<li class="m-nav__item">
-																				<a href="" class="m-nav__link">
-																					<i class="m-nav__link-icon flaticon-chat-1"></i>
-																					<span class="m-nav__link-text">
-																						Messages
-																					</span>
-																				</a>
-																			</li>
-																			<li class="m-nav__item">
-																				<a href="" class="m-nav__link">
-																					<i class="m-nav__link-icon flaticon-info"></i>
-																					<span class="m-nav__link-text">
-																						FAQ
-																					</span>
-																				</a>
-																			</li>
-																			<li class="m-nav__item">
-																				<a href="" class="m-nav__link">
-																					<i class="m-nav__link-icon flaticon-lifebuoy"></i>
-																					<span class="m-nav__link-text">
-																						Support
-																					</span>
-																				</a>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="m-portlet__body">
-											<div class="m-widget4 m-widget4--chart-bottom" style="min-height: 350px">
-												<div class="m-widget4__item">
-													<div class="m-widget4__ext">
-														<a href="#" class="m-widget4__icon m--font-brand">
-															<i class="flaticon-interface-3"></i>
-														</a>
-													</div>
-													<div class="m-widget4__info">
-														<span class="m-widget4__text">
-															Make Metronic Great Again
-														</span>
-													</div>
-													<div class="m-widget4__ext">
-														<span class="m-widget4__number m--font-accent">
-															+500
-														</span>
-													</div>
-												</div>
-												<div class="m-widget4__item">
-													<div class="m-widget4__ext">
-														<a href="#" class="m-widget4__icon m--font-brand">
-															<i class="flaticon-folder-4"></i>
-														</a>
-													</div>
-													<div class="m-widget4__info">
-														<span class="m-widget4__text">
-															Green Maker Team
-														</span>
-													</div>
-													<div class="m-widget4__ext">
-														<span class="m-widget4__stats m--font-info">
-															<span class="m-widget4__number m--font-accent">
-																-64
-															</span>
-														</span>
-													</div>
-												</div>
-												<div class="m-widget4__item">
-													<div class="m-widget4__ext">
-														<a href="#" class="m-widget4__icon m--font-brand">
-															<i class="flaticon-line-graph"></i>
-														</a>
-													</div>
-													<div class="m-widget4__info">
-														<span class="m-widget4__text">
-															Make Apex Great Again
-														</span>
-													</div>
-													<div class="m-widget4__ext">
-														<span class="m-widget4__stats m--font-info">
-															<span class="m-widget4__number m--font-accent">
-																+1080
-															</span>
-														</span>
-													</div>
-												</div>
-												<div class="m-widget4__item m-widget4__item--last">
-													<div class="m-widget4__ext">
-														<a href="#" class="m-widget4__icon m--font-brand">
-															<i class="flaticon-diagram"></i>
-														</a>
-													</div>
-													<div class="m-widget4__info">
-														<span class="m-widget4__text">
-															A Programming Language
-														</span>
-													</div>
-													<div class="m-widget4__ext">
-														<span class="m-widget4__stats m--font-info">
-															<span class="m-widget4__number m--font-accent">
-																+19
-															</span>
-														</span>
-													</div>
-												</div>
-												<div class="m-widget4__chart m-portlet-fit--sides m--margin-top-20 m-portlet-fit--bottom1" style="height:120px;">
-													<canvas id="m_chart_latest_updates"></canvas>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!--end:: Widgets/Latest Updates-->
-								</div>
-							</div>
-							<!--End::Section-->
-							<!--Begin::Section-->
 
-							<!--End::Section-->
-							<!--Begin::Section-->
+								<br>
+								<br>
+								<br>
 
-							<!--End::Section-->
+
+
+
+								</center>
 						</div>
-						<!-- body -->
-					</div>
-				</div>
+
 			</div>
 			<!-- end:: Body -->
-			<!-- begin::Footer -->
-						<footer class="m-grid__item  m-footer ">
-							<div class="m-container m-container--responsive m-container--xxl m-container--full-height">
-								<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
-									<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
-										<span class="m-footer__copyright">
-											2019 Todos los derechos Reservados ©
-											<a href="#" class="m-link">
-												CreditoPyme24
-											</a>
+<!-- begin::Footer -->
+			<footer class="m-grid__item  m-footer ">
+				<div class="m-container m-container--responsive m-container--xxl m-container--full-height">
+					<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
+						<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
+							<span class="m-footer__copyright">
+								2019 Todos los derechos Reservados ©
+								<a href="#" class="m-link">
+									CreditoPyme24
+								</a>
+							</span>
+						</div>
+						<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
+							<ul class="m-footer__nav m-nav m-nav--inline m--pull-right">
+								<li class="m-nav__item">
+									<a href="#" class="m-nav__link">
+										<span class="m-nav__link-text">
+											About
 										</span>
-									</div>
-									<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
-										<ul class="m-footer__nav m-nav m-nav--inline m--pull-right">
-											<li class="m-nav__item">
-												<a href="#" class="m-nav__link">
-													<span class="m-nav__link-text">
-														About
-													</span>
-												</a>
-											</li>
-											<li class="m-nav__item">
-												<a href="#"  class="m-nav__link">
-													<span class="m-nav__link-text">
-														Privacy
-													</span>
-												</a>
-											</li>
-											<li class="m-nav__item m-nav__item--last">
-												<a href="#" class="m-nav__link" data-toggle="m-tooltip" title="Support Center" data-placement="left">
-													<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</footer>
-						<!-- end::Footer -->
+									</a>
+								</li>
+								<li class="m-nav__item">
+									<a href="#"  class="m-nav__link">
+										<span class="m-nav__link-text">
+											Privacy
+										</span>
+									</a>
+								</li>
+								<li class="m-nav__item m-nav__item--last">
+									<a href="#" class="m-nav__link" data-toggle="m-tooltip" title="Support Center" data-placement="left">
+										<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- end::Footer -->
 		</div>
 		<!-- end:: Page -->
     		        <!-- begin::Quick Sidebar -->
@@ -1827,11 +1157,6 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!-- end::Scroll Top -->		    <!-- begin::Quick Nav -->
 
 		<!-- begin::Quick Nav -->
-
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.min.js"></script>
-
     	<!--begin::Base Scripts -->
 		<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 		<script src="assets/demo/demo9/base/scripts.bundle.js" type="text/javascript"></script>
@@ -1843,81 +1168,17 @@ License: You must have a valid license purchased only from themeforest(the above
 		<script src="assets/app/js/dashboard.js" type="text/javascript"></script>
 		<!--end::Page Snippets -->
         <!-- begin::Page Loader -->
-
-		<!--begin::Global Theme Bundle -->
-		<script src="default/assets/demo/base/scripts.bundle.js" type="text/javascript"></script>
-		<!--end::Global Theme Bundle -->
-
-		<!-- morris -->
-		<script src="../morris/morris.js" type="text/javascript"></script>
-		<script src="../morris/examples/lib/example.js" type="text/javascript"></script>
-		<!-- morris -->
-
 		<script>
             $(window).on('load', function() {
                 $('body').removeClass('m-page--loading');
             });
 		</script>
-		<script>
-		// Use Morris.Bar
-		Morris.Bar({
-		  element: 'graph',
-		  data: [
-		    {x: '2011 Q1', y: 250000},
-		    {x: '2011 Q2', y: 330000},
-		    {x: '2011 Q3', y: 560000},
-		    {x: '2011 Q4', y: 160000}
-		  ],
-		  xkey: 'x',
-		  ykeys: ['y'],
-		  labels: ['Y'],
-		  barColors: function (row, series, type) {
-		    if (type === 'bar') {
-		      var red = Math.ceil(255 * row.y / this.ymax);
-		      return 'rgb(' + red + ',0,0)';
-		    }
-		    else {
-		      return '#000';
-		    }
-		  }
-		});
-		</script>
-		<script>
-		Morris.Donut({
-      element: 'graph-2',
-      data: [
-        {value: 70, label: 'foo'},
-        {value: 15, label: 'bar'},
-        {value: 10, label: 'baz'},
-        {value: 5, label: 'A really really long label'}
-      ],
-      backgroundColor: '#ccc',
-      labelColor: '#060',
-      colors: [
-        '#0BA462',
-        '#39B580',
-        '#67C69D',
-        '#95D7BB'
-      ],
-      formatter: function (x) { return x + "%"}
-    });
-		</script>
-		<script>
-		/* data stolen from http://howmanyleft.co.uk/vehicle/jaguar_'e'_type */
-var day_data = [
-	{"period": "2012-10-01", "licensed": 3407, "sorned": 660},
-	{"period": "2012-09-30", "licensed": 3351, "sorned": 629}
 
-];
-Morris.Bar({
-	element: 'graph-3',
-	data: day_data,
-	xkey: 'period',
-	ykeys: ['licensed', 'sorned'],
-	labels: ['Licensed', 'SORN'],
-	xLabelAngle: 60
-});
-		</script>
+		<!--begin::Page Scripts -->
+		<script src="default/assets/demo/custom/crud/wizard/wizard.js" type="text/javascript"></script>
+
+
+
 		<!-- end::Page Loader -->
 	</body>
 	<!-- end::Body -->

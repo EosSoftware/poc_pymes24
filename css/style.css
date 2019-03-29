@@ -353,7 +353,7 @@ figure {
 
 #fh5co-header-section {
   padding: 0;
-  position: relative;
+  /* position: relative; */
   left: 0;
   width: 100%;
   z-index: 1022;
@@ -2108,7 +2108,7 @@ div.cs-select span {
 
 #tools,
 #tools1 {
-  width: 30px;
+  width: 50px;
   height: 26px;
   position: absolute;
   background-color:  #F78536;
